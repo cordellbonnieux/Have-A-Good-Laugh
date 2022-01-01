@@ -1,0 +1,214 @@
+{
+    "bands": [
+        {
+            "name":"Toy Tiger",
+            "location":"Vancouver, Canada",
+            "logo":"toy_tiger.png",
+            "music":"https://toytigerstreetrock.bandcamp.com/"
+        },
+        {
+            "name":"Crosshairs",
+            "location":"Victoria, Canada",
+            "logo":"",
+            "music":""
+        },
+        {
+            "name":"Schedule 1",
+            "location":"Vancouver/Toronto, Canada",
+            "logo":"schedule1.jpg",
+            "music":"https://dirtcultrecords.bandcamp.com/album/schedule-1"
+        },
+        {
+            "name":"Terminal City Rats",
+            "location":"Vancouver, Canada",
+            "logo":"terminal_city_rats.png",
+            "music":"https://terminalcityrats.bandcamp.com//"
+        },
+        {
+            "name":"Béton Armé",
+            "location":"Montreal, Canada",
+            "logo":"beton_arme.png",
+            "music":"https://betonarmeoimtl.bandcamp.com/"
+        },
+        {
+            "name":"Force Majeure",
+            "location":"Montreal, Canada",
+            "logo":"force_majeure.png",
+            "music":"https://forcemajeuremtl.bandcamp.com/"
+        },
+        {
+            "name":"Komintern Sect",
+            "location":"Orléans/Paris, France",
+            "logo":"komintern_sect.png",
+            "music":"https://www.youtube.com/watch?v=-3xlcy9tT4c"
+        },
+        {
+            "name":"Adrenochrome",
+            "location":"Oakland, USA",
+            "logo":"adrenochrome.png",
+            "music":"https://adrenochromeoakland.bandcamp.com/"
+        },
+        {
+            "name":"The Moor",
+            "location":"Vancouver, Canada",
+            "logo":"the_moor.png",
+            "music":"https://themoorpeacepunk.bandcamp.com/"
+        },
+        {
+            "name":"Voltage",
+            "location":"Kamloops, Canada",
+            "logo":"voltage.png",
+            "music":"https://voltagepunk.bandcamp.com/album/out-of-control"
+        },
+        {
+            "name":"Deadwolff",
+            "location":"Toronto, Canada",
+            "logo":"deadwolff.png",
+            "music":"https://deadwolff.bandcamp.com/releases"
+        },
+        {
+            "name":"Metalian",
+            "location":"Montreal, Canada",
+            "logo":"metalian.png",
+            "music":"https://metalian1.bandcamp.com/"
+        },
+        {
+            "name":"Smuther",
+            "location":"Abbotsford, Canda",
+            "logo":"",
+            "music":""
+        },
+        {
+            "name":"Hope?",
+            "location":"Portland, USA",
+            "logo":"hope.png",
+            "music":"https://punxonhope.bandcamp.com/"
+        },
+        {
+            "name":"Mano Fico",
+            "location":"Oakland, USA",
+            "logo":"mano_fico.png",
+            "music":"https://manofico.bandcamp.com/"
+        },
+        {
+            "name":"Phane",
+            "location":"Vancouver, Canada",
+            "logo":"phane.png",
+            "music":"https://phanepunx.bandcamp.com/"
+        },
+        {
+            "name":"Fractured",
+            "location":"Montreal, Canada",
+            "logo":"fractured.png",
+            "music":"https://fractured3.bandcamp.com/"
+        },
+        {
+            "name":"Vaxine",
+            "location":"New York City, USA",
+            "logo":"vaxine.png",
+            "music":"https://vaxine.bandcamp.com/"
+        },
+        {
+            "name":"Löckheed",
+            "location":"Portland/Santa Rosa, USA",
+            "logo":"",
+            "music":"https://lockheedpunk.bandcamp.com/"
+        },
+        {
+            "name":"Oi Polloi",
+            "location":"Scotland / European Union",
+            "logo":"oi_polloi.png",
+            "music":"https://www.youtube.com/watch?v=z4mzoOpLIXw"
+        },
+        {
+            "name":"Disposal",
+            "location":"Victoria, Canada",
+            "logo":"disposal.png",
+            "music":"https://slow-death-records.bandcamp.com/album/disp-sal-demo-2021"
+        },
+        {
+            "name":"Hellbender",
+            "location":"Vancouver, Canada",
+            "logo":"",
+            "music":""
+        },
+        {
+            "name":"Siege Fire",
+            "location":"Portland, USA",
+            "logo":"",
+            "music":"https://www.youtube.com/watch?v=DmO-ltGRUIg"
+        },
+        {
+            "name":"Hellish Inferno",
+            "location":"Oakland, USA",
+            "logo":"hellish_inferno.png",
+            "music":"https://hellishinfernopunx.bandcamp.com/releases"
+        },
+        {
+            "name":"Warkrusher",
+            "location":"Montreal, Canada",
+            "logo":"warkrusher.png",
+            "music":"https://inbattlethereisnosobriety.bandcamp.com/releases"
+        },
+        {
+            "name":"Languid",
+            "location":"Edmonton, Canada",
+            "logo":"languid.jpg",
+            "music":"https://languidpunk.bandcamp.com/"
+        },
+        {
+            "name":"Brutalize",
+            "location":"Vancouver, Canada",
+            "logo":"brutalize.png",
+            "music":"https://brutalize.bandcamp.com/"
+        },
+        {
+            "name":"Krigsulvar",
+            "location":"Portland, USA",
+            "logo":"krigsulvar.png",
+            "music":"https://krigsulvarpdx.bandcamp.com/album/raw-demo"
+        },
+        {
+            "name":"Horrendous 3D",
+            "location":"Portland, USA",
+            "logo":"horrendous_3d.png",
+            "music":"https://horrendous3d.bandcamp.com/album/the-gov-and-corps-are-using-psycho-electronic-weaponry-to-manipulate-you-and-me"
+        },
+        {
+            "name":"Frantic",
+            "location":"Los Angeles, USA",
+            "logo":"frantic.png",
+            "music":"https://hardcorehell.bandcamp.com/album/frantic-noise-punx-attack"
+        },
+        {
+            "name":"Collapsed",
+            "location":"Montreal, USA",
+            "logo":"collapsed.png",
+            "music":"https://collapsedmtl.bandcamp.com/"
+        },
+        {
+            "name":"End Result",
+            "location":"Los Angeles, USA",
+            "logo":"end_result.png",
+            "music":"https://endresult.bandcamp.com/"
+        },
+        {
+            "name":"War//Plague",
+            "location":"Minneapolis, USA",
+            "logo":"war_plague.png",
+            "music":"https://warplaguepunx.bandcamp.com/"
+        },
+        {
+            "name":"Sex Dwarf",
+            "location":"Stockholm, Sweden",
+            "logo":"sex_dwarf.png",
+            "music":"https://sexdwarf.bandcamp.com/"
+        },
+        {
+            "name":"Dead Cells",
+            "location":"Vancouver, Canada",
+            "logo":"",
+            "music":"https://deadcells.ca/"
+        }
+    ]
+}

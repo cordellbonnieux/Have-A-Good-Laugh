@@ -1,38 +1,474 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+@font-face {
+  font-family: "Glass Houses";
+  src: local("Glass Houses"),
+  url("./fonts/glashou.ttf") format("truetype");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.font_glass, h1, h2, h3, h4, h5, h6 {
+  font-family: "Glass Houses";
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  font-family: 'PT Serif';
+  margin:0;
+  color: black;
+  background-image: url("./images/meuco.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+a {
+  color:red;
+  text-decoration: none;
+  transition:0.3s;
+}
+
+a:hover {
+  color: red;
+  text-decoration:underline;
+}
+
+#container {
+  width:100%;
+  overflow:hidden;
+  margin-top:5%;
+}
+
+#header {
+  /*
+  background-image: url("./images/fatum.jpg");
+  background-repeat:no-repeat;
+  background-size:center;
+  */
+  min-height:300px;
+  color:white;
+}
+/*
+#header_inner {
+  background:rgba(0.0,0.0,0.0,0.5);
+  min-height:300px;
+  max-width:1000px;
+}
+
+#header_inner_text {
+  width:319px;
+}
+*/
+.header_title {
+  font-size:5em;
+  margin:0;
+  padding:5% 5% 1% 5%;
+}
+
+.header_tagline {
+  margin:0;
+  padding:0 5% 5% 5%;
+  font-size:1.5em;
+}
+
+#menu {
+  background-color: red;
+  padding:5px;
+  font-size:1.2em;
+  position:fixed;
+  top:0;
+  width:100%;
+}
+/*
+* center for over 900px
+*/
+#menu_bar {
+  display:flex;
+  align-items:center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-wrap: nowrap;
+  max-width:1000px;
+  margin:0 auto;
+  padding:0 5px;
+}
+
+/*
+* main menu
+*/
+#menu_inner {
+  display:none;
+  text-align:center;
+}
+
+/*
+* adjust to center 900px for larger screens
+*/
+#menu_mobile_button {
+  width:100%;
+  display:flex;
+  justify-content: right;
+}
+
+/*
+* adjust to center 900px for larger screens
+*/
+#menu_title_wrapper {
+  width:100%;
+  display:flex;
+  justify-content: left;
+
+}
+
+.menu_title {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.menu_button_wrapper {
+  display:inline-block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.menu_button_wrapper a {
+
+}
+
+.menu_button {
+  color: white;
+  border: 1px solid white;
+  background-color:transparent;
+  padding: 10px;
+  margin: 5px 5px 4px 5px;
+  text-align:center;
+  transition: 0.5s;
+  display:inline-block;
+}
+
+#menu button:hover, #menu a:hover {
+  background-color:white!important;
+  color:red;
+  text-decoration:none!important;
+  cursor:pointer;
+}
+/*
+* Hide contact menu item and area
+*/
+.menu_button_wrapper_contact, #contact {
+  display:none;
+}
+
+/*
+#content {
+  display:flex;
+  align-items: stretch;
+}
+*/
+/*
+* small screens
+*/
+#content {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#content_left {
+  max-width:1000px;
+  overflow:hidden;
+  background-color:white;
+  background-image: url('./images/assets/texture_light3.jpg');
+  background-repeat: repeat;
+  margin:10px auto 100px auto;
+}
+
+#content_right {
+  max-width:600px;
+  margin:10px auto 100px auto;
+}
+
+.content_right_img {
+  width:100%;
+  display:inline-block;
+  margin:10px auto;
+}
+
+/*
+* Tickets
+*/
+
+#tickets_inner {
+  text-align:center;
+}
+
+#flyer2022 {
+  width:100%;
+  max-width:600px;
+}
+
+/* 
+* Old HAGL flyers
+*/
+
+#oldFlyers {
+  display:flex;
+  flex-wrap: wrap;
+  align-items:center;
+}
+
+.oldFlyer {
+  width: 190px;
+  background-size: contain;
+  height: 300px;
+  background-repeat: no-repeat;
+  margin:0 auto;
+  border:5px solid transparent;
+}
+
+#hagl1 {
+  background-image: url("./images/flyers/hagl1.jpg");
+}
+
+#hagl2 {
+  background-image: url("./images/flyers/hagl2.jpg");
+}
+
+#hagl3 {
+  background-image: url("./images/flyers/hagl3.jpg");
+}
+
+#hagl4 {
+  background-image: url("./images/flyers/hagl4.jpg");
+}
+
+#hagl5 {
+  background-image: url("./images/flyers/hagl5.jpg");
+}
+
+/*
+*  Info
+*/
+
+.section_dark {
+  background-image: url('./images/assets/texture_dark.jpg');
+  background-repeat: repeat;
+  /*
+  margin:15px 5px;
+  */
+  color:white;
+  padding:35px 25px;
+}
+
+.info_inner_section {
+  max-width:1000px;
+}
+
+#faq {
+  text-align:center;
+}
+
+#bottom {
+  min-height:200px;
+}
+/*
+.bottom_img {
+  background-image: url("./images/meuco.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height:200px;
+  position:fixed;
+  bottom:0;
+  width:100%;
+  z-index: -3;
+}
+*/
+#footer {
+  background-color:red;
+  width:100%;
+  bottom:0;
+  /*
+  position:fixed;
+  z-index:150;
+  */
+  color:white;
+  text-align:center;
+}
+
+#footer_inner {
+  padding:10px;
+}
+
+#footer_cred {
+  margin: 0;
+}
+
+#footer a {
+  color:white;
+  text-decoration: underline;
+}
+
+/*
+*
+* BAND LOGOS
+*
+*/
+
+#lineUp_container {
+  text-align:center;
+}
+
+#lineUp {
+  display:flex;
+  width:100%;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+
+.band_container {
+  max-width:333px;
+  margin:10px;
+  padding:10px 0;
+}
+
+.band_logo {
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position:center;
+  width:100%;
+  min-height:100px;
+}
+
+#toytiger {
+  background-image: url("./images/logos/toy_tiger.png");
+}
+
+#crosshairs {
+  background-image: url("./images/logos/crosshairs.png");
+}
+
+#schedule1 {
+  background-image: url("./images/logos/schedule1.png");
+}
+
+#terminalcityrats {
+  background-image: url("./images/logos/terminal_city_rats.png");
+}
+
+#bétonarmé {
+  background-image: url("./images/logos/beton_arme.png");
+}
+
+#forcemajeure {
+  background-image: url("./images/logos/force_majeure.png");
+}
+
+#kominternsect {
+  background-image: url("./images/logos/komintern_sect.png");
+}
+
+#adrenochrome {
+  background-image: url("./images/logos/adrenochrome.png");
+}
+
+#themoor {
+  background-image: url("./images/logos/the_moor.png");
+}
+
+#voltage {
+  background-image: url("./images/logos/voltage.png");
+}
+
+#deadwolff {
+  background-image: url("./images/logos/deadwolff.png");
+}
+
+#metalian {
+  background-image: url("./images/logos/metallian.png");
+}
+
+#smuther {
+  background-image: url("./images/logos/smuther.png");
+}
+
+#hope {
+  background-image: url("./images/logos/hope.png");
+}
+
+#manofico {
+  background-image: url("./images/logos/manofico.png");
+}
+
+#phane {
+  background-image: url("./images/logos/phane.png");
+}
+
+#fractured {
+  background-image: url("./images/logos/fractured.png");
+}
+
+#vaxine {
+  background-image: url("./images/logos/vaxine.png");
+}
+
+#löckheed {
+  background-image: url("./images/logos/lockheed.png");
+}
+
+#oipolloi {
+  background-image: url("./images/logos/oi_polloi.png");
+}
+
+#disposal {
+  background-image: url("./images/logos/disposal.png");
+}
+
+#hellbender {
+  background-image: url("./images/logos/hellbender.png");
+}
+
+#siegefire {
+  background-image: url("./images/logos/siege_fire.png");
+}
+
+#hellishinferno {
+  background-image: url("./images/logos/hellish_inferno.png");
+}
+
+#warkrusher {
+  background-image: url("./images/logos/warkrusher.png");
+}
+
+#languid {
+  background-image: url("./images/logos/languid.png");
+}
+
+#brutalize {
+  background-image: url("./images/logos/brutalize.png");
+}
+
+#krigsulvar {
+  background-image: url("./images/logos/krigsulvar.png");
+}
+
+#horrendous3d {
+  background-image: url("./images/logos/horrendous3d.png");
+}
+
+#frantic {
+  background-image: url("./images/logos/frantic.png");
+}
+
+#collapsed {
+  background-image: url("./images/logos/collapsed.png");
+}
+
+#endresult {
+  background-image: url("./images/logos/end_result.png");
+}
+
+#warplague {
+  background-image: url("./images/logos/war_plague.png");
+}
+
+#sexdwarf {
+  background-image: url("./images/logos/sex_dwarf.png");
+}
+
+#deadcells {
+  background-image: url("./images/logos/deadcells.png");
 }
