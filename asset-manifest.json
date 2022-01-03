@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.744806ce.css",
-    "main.js": "/static/js/main.179f22eb.js",
+    "main.js": "/static/js/main.57f5fb84.js",
     "static/media/hagl1.jpg": "/static/media/hagl1.004853b8a604dd622a3c.jpg",
     "static/media/HAGL2022.jpg": "/static/media/HAGL2022.ae42bea2a13b9dec9d94.jpg",
     "static/media/hagl3.jpg": "/static/media/hagl3.5763c75e217760dbea3a.jpg",
@@ -55,10 +55,10 @@
     "static/media/crosshairs.png": "/static/media/crosshairs.7b0abd4c95b4c0526c50.png",
     "index.html": "/index.html",
     "main.744806ce.css.map": "/static/css/main.744806ce.css.map",
-    "main.179f22eb.js.map": "/static/js/main.179f22eb.js.map"
+    "main.57f5fb84.js.map": "/static/js/main.57f5fb84.js.map"
   },
   "entrypoints": [
     "static/css/main.744806ce.css",
-    "static/js/main.179f22eb.js"
+    "static/js/main.57f5fb84.js"
   ]
 }
