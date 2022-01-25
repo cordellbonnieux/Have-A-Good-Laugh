@@ -150,7 +150,7 @@ a:hover {
 * Hide contact menu item and area
 */
 .menu_button_wrapper_contact, #contact {
-  display:none;
+  /*display:none;*/
 }
 
 /*
