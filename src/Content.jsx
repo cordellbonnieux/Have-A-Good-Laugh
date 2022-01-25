@@ -4,6 +4,7 @@ import LineUp from './LineUp';
 import Info from './Info';
 import Contact from './Contact';
 import Right from './Right';
+import Videos from './Videos';
 
 export default function Content() {
     return (
@@ -13,6 +14,7 @@ export default function Content() {
             <Tickets />
             <LineUp />
             <Info />
+            <Videos />
             <Contact />
           </div>
         </div>
