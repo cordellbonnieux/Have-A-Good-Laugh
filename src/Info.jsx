@@ -1,4 +1,9 @@
 import React from 'react';
+import hagl1 from './images/flyers/hagl1.jpg';
+import hagl2 from './images/flyers/hagl2.jpg';
+import hagl3 from './images/flyers/hagl3.jpg';
+import hagl4 from './images/flyers/hagl4.jpg';
+import hagl5 from './images/flyers/hagl5.jpg';
 
 export default function Info() {
   return (
@@ -16,11 +21,21 @@ export default function Info() {
           </p>
           <h4>Flyers/line-ups from previous years:</h4>
           <div id="oldFlyers">
-            <div id="hagl1" className="oldFlyer" />
-            <div id="hagl2" className="oldFlyer" />
-            <div id="hagl3" className="oldFlyer" />
-            <div id="hagl4" className="oldFlyer" />
-            <div id="hagl5" className="oldFlyer" />
+            <div class="oldFlyerWrapper">
+              <a href={hagl1} target="_blank" rel="noreferrer"><img id="hagl1" className="oldFlyer" src={hagl1} alt="hagl1" /></a>
+            </div>
+            <div class="oldFlyerWrapper">
+              <a href={hagl2} target="_blank" rel="noreferrer"><img id="hagl2" className="oldFlyer" src={hagl2} alt="hagl2" /></a>
+            </div>
+            <div class="oldFlyerWrapper">
+              <a href={hagl3} target="_blank" rel="noreferrer"><img id="hagl3" className="oldFlyer" src={hagl3} alt="hagl3" /></a>
+            </div>
+            <div class="oldFlyerWrapper">
+              <a href={hagl4} target="_blank" rel="noreferrer"><img id="hagl4" className="oldFlyer" src={hagl4} alt="hagl4" /></a>
+            </div>
+            <div class="oldFlyerWrapper">
+              <a href={hagl5} target="_blank" rel="noreferrer"><img id="hagl5" className="oldFlyer" src={hagl5} alt="hagl5" /></a>
+            </div>
           </div>
         </div>
         <div id="info_inner_can" className="info_inner_section">

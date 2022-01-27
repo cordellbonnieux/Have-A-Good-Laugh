@@ -10,9 +10,13 @@
   font-family: "Glass Houses";
 }
 
+body,html {
+  margin:0;
+  padding:0;
+}
+
 body {
   font-family: 'PT Serif';
-  margin:0;
   color: black;
   background-image: url("./images/meuco.jpg");
   background-repeat: no-repeat;
@@ -38,25 +42,18 @@ a:hover {
 }
 
 #header {
-  /*
-  background-image: url("./images/fatum.jpg");
-  background-repeat:no-repeat;
-  background-size:center;
-  */
   min-height:300px;
   color:white;
 }
-/*
+
 #header_inner {
-  background:rgba(0.0,0.0,0.0,0.5);
-  min-height:300px;
-  max-width:1000px;
+
 }
 
 #header_inner_text {
-  width:319px;
+
 }
-*/
+
 .header_title {
   font-size:5em;
   margin:0;
@@ -206,38 +203,43 @@ a:hover {
 */
 
 #oldFlyers {
+  /*
   display:flex;
   flex-wrap: wrap;
   align-items:center;
+  */
+  text-align: center;
+}
+
+.oldFlyerWrapper {
+  border: 5px solid transparent;
+  width: 190px;
+  height: 300px;
+  display: inline-block;
 }
 
 .oldFlyer {
-  width: 190px;
-  background-size: contain;
-  height: 300px;
-  background-repeat: no-repeat;
-  margin:0 auto;
-  border:5px solid transparent;
+  width:100%;
 }
 
 #hagl1 {
-  background-image: url("./images/flyers/hagl1.jpg");
+
 }
 
 #hagl2 {
-  background-image: url("./images/flyers/hagl2.jpg");
+
 }
 
 #hagl3 {
-  background-image: url("./images/flyers/hagl3.jpg");
+
 }
 
 #hagl4 {
-  background-image: url("./images/flyers/hagl4.jpg");
+
 }
 
 #hagl5 {
-  background-image: url("./images/flyers/hagl5.jpg");
+
 }
 
 /*
