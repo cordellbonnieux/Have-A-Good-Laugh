@@ -1,15 +1,22 @@
 import React from 'react';
+import Section from './Section';
+import flyer from './images/flyers/HAGL2022.jpg';
 
 function Header() {
-  return (
-    <div id="header">
+  const content = (
+    <header>
       <div id="header_inner">
-        <div id="header_inner_text">
-          <h1 className="header_title font_glass">Have A Good Laugh</h1>
-          <h2 className="header_tagline font_glass">Vancouver&apos;s Punk Fest</h2>
+        <img src={flyer} id="flyer2022" alt="HAGL 2022 flyer" />
+        <div>
+          <a href={flyer} target="_blank" rel="noreferrer">
+            Download The Flyer
+          </a>
         </div>
       </div>
-    </div>
+    </header>
+  );
+  return (
+    <Section dark={true} title={''} content={content} />
   );
 }
 

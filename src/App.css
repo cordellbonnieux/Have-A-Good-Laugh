@@ -39,8 +39,22 @@ a:hover {
   text-align: center;
 }
 
+.left {
+  text-align:left;
+}
+
 section {
 
+}
+
+.section_dark {
+  background-image: url('./images/assets/texture_dark.jpg');
+  background-repeat: repeat;
+  /*
+  margin:15px 5px;
+  */
+  color:white;
+  padding:35px 25px;
 }
 
 .section_inner {
@@ -179,11 +193,14 @@ section {
 
 #content_left {
   max-width:1000px;
+  margin:10px auto 100px auto;
   overflow:hidden;
+}
+
+.content_left_inner {
   background-color:white;
   background-image: url('./images/assets/texture_light3.jpg');
   background-repeat: repeat;
-  margin:10px auto 100px auto;
 }
 
 #content_right {
@@ -265,23 +282,11 @@ section {
 *  Info
 */
 
-.section_dark {
-  background-image: url('./images/assets/texture_dark.jpg');
-  background-repeat: repeat;
-  /*
-  margin:15px 5px;
-  */
-  color:white;
-  padding:35px 25px;
-}
 
 .info_inner_section {
   max-width:1000px;
 }
 
-#faq {
-  text-align:center;
-}
 
 #bottom {
   min-height:200px;
