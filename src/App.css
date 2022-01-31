@@ -35,15 +35,21 @@ a:hover {
   text-decoration: underline;
 }
 
+.flex {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
 .center {
   text-align: center;
 }
 
 .left {
-  text-align:left;
+  text-align: left;
 }
 header .section {
-  background:transparent;
+  background: transparent;
 }
 
 .section {
@@ -238,8 +244,8 @@ header .section {
 * Tickets
 */
 
-#tickets_inner {
-  text-align:center;
+.ticket {
+  max-width:38%;
 }
 
 #flyer2022 {
