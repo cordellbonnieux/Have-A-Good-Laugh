@@ -16,7 +16,7 @@ function Header() {
     </header>
   );
   return (
-    <Section dark={true} title={''} content={content} />
+    <Section dark={false} title={''} content={content} />
   );
 }
 

@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Tickets() {
   return (
-    <section id="tickets" className="section">
+    <section id="tickets" className="section section_dark">
       <div id="tickets_inner">
         <div id="countdown">
           <h1>Tickets on sale February 5th!</h1>

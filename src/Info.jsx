@@ -18,19 +18,19 @@ export default function Info() {
       </p>
       <h4>Flyers/line-ups from previous years:</h4>
       <div id="oldFlyers">
-        <div class="oldFlyerWrapper">
+        <div className="oldFlyerWrapper">
           <a href={hagl1} target="_blank" rel="noreferrer"><img id="hagl1" className="oldFlyer" src={hagl1} alt="hagl1" /></a>
         </div>
-        <div class="oldFlyerWrapper">
+        <div className="oldFlyerWrapper">
           <a href={hagl2} target="_blank" rel="noreferrer"><img id="hagl2" className="oldFlyer" src={hagl2} alt="hagl2" /></a>
         </div>
-        <div class="oldFlyerWrapper">
+        <div className="oldFlyerWrapper">
           <a href={hagl3} target="_blank" rel="noreferrer"><img id="hagl3" className="oldFlyer" src={hagl3} alt="hagl3" /></a>
         </div>
-        <div class="oldFlyerWrapper">
+        <div className="oldFlyerWrapper">
           <a href={hagl4} target="_blank" rel="noreferrer"><img id="hagl4" className="oldFlyer" src={hagl4} alt="hagl4" /></a>
         </div>
-        <div class="oldFlyerWrapper">
+        <div className="oldFlyerWrapper">
           <a href={hagl5} target="_blank" rel="noreferrer"><img id="hagl5" className="oldFlyer" src={hagl5} alt="hagl5" /></a>
         </div>
       </div>
