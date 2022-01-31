@@ -15,14 +15,16 @@ export default function Menu() {
   return (
     <div id="menu">
       <div id="menu_bar">
-        <div id="menu_left_spacer" />
-        <div id="menu_title_wrapper">
-          <div className="menu_title font_glass">HAVE A GOOD LAUGH</div>
+        <div id="menu_title_wrapper" className="left fullWidth">
+          <div className="menu_title font_glass">
+            <a href="header">
+              HAVE A GOOD LAUGH
+            </a>
+          </div>
         </div>
-        <div id="menu_mobile_button">
+        <div id="menu_mobile_button" className="right fullWidth">
           <button onClick={mobileMenu} className="menu_button font_glass" id="menuBtn" type="button">Menu</button>
         </div>
-        <div id="menu_right_spacer" />
       </div>
       <div id="menu_inner">
         <div className="menu_button_wrapper menu_button_wrapper_tickets">
@@ -44,3 +46,6 @@ export default function Menu() {
     </div>
   );
 }
+
+/** ADD PHOTOS FOR MOBILE ONLY */
+/** HIDE MENU BUTTON ON DESKTOP */

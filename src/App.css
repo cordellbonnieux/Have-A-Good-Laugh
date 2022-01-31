@@ -72,6 +72,15 @@ a:hover {
 .left {
   text-align: left;
 }
+
+.right {
+  text-align: right;
+}
+
+.fullWidth {
+  width:100%;
+}
+
 header .section {
   background: transparent;
 }
@@ -166,35 +175,17 @@ header .section {
   text-align:center;
 }
 
-/*
-* adjust to center 900px for larger screens
-*/
-#menu_mobile_button {
-  width:100%;
-  display:flex;
-  justify-content: right;
-}
-
-/*
-* adjust to center 900px for larger screens
-*/
-#menu_title_wrapper {
-  width:100%;
-  display:flex;
-  justify-content: left;
-
-}
-
 .menu_title {
   color: white;
 }
 
-.menu_button_wrapper {
-  display:inline-block;
+.menu_title a, .menu_title a::selection{
+  color: #fff;
+  text-decoration: none;
 }
 
-.menu_button_wrapper a {
-
+.menu_button_wrapper {
+  display:inline-block;
 }
 
 .menu_button {
@@ -206,6 +197,7 @@ header .section {
   text-align:center;
   transition: 0.5s;
   display:inline-block;
+  font-size: 14px;
 }
 
 #menu button:hover, #menu a:hover {
@@ -214,18 +206,7 @@ header .section {
   text-decoration:none!important;
   cursor:pointer;
 }
-/*
-* Hide contact menu item and area
-*/
-.menu_button_wrapper_contact, #contact {
-  /*display:none;*/
-}
 
-/*
-#content {
-  display:flex;
-  align-items: stretch;
-}
 */
 /*
 * small screens
@@ -281,15 +262,6 @@ header .section {
 * Old HAGL flyers
 */
 
-#oldFlyers {
-  /*
-  display:flex;
-  flex-wrap: wrap;
-  align-items:center;
-  */
-  text-align: center;
-}
-
 .oldFlyerWrapper {
   border: 5px solid transparent;
   width: 190px;
@@ -308,26 +280,11 @@ header .section {
 #bottom {
   min-height:200px;
 }
-/*
-.bottom_img {
-  background-image: url("./images/meuco.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height:200px;
-  position:fixed;
-  bottom:0;
-  width:100%;
-  z-index: -3;
-}
-*/
+
 #footer {
   background-color:red;
   width:100%;
   bottom:0;
-  /*
-  position:fixed;
-  z-index:150;
-  */
   color:white;
   text-align:center;
 }

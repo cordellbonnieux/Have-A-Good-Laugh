@@ -17,7 +17,7 @@ export default function Info() {
         bands from around the world for 3 days every June, since 2016.
       </p>
       <h4>Flyers/line-ups from previous years:</h4>
-      <div id="oldFlyers">
+      <div id="oldFlyers" className="center">
         <div className="oldFlyerWrapper">
           <a href={hagl1} target="_blank" rel="noreferrer"><img id="hagl1" className="oldFlyer" src={hagl1} alt="hagl1" /></a>
         </div>
