@@ -68,6 +68,6 @@ export default function Info() {
   </div>
   );
   return (
-    <Section dark={true} title={"Info and FAQs"} content={content} />
+    <Section dark={true} title={"Info"} content={content} />
   );
 }
