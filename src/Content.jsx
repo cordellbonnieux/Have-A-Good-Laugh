@@ -9,8 +9,7 @@ import Header from './Header';
 
 export default function Content() {
     return (
-      <div id="content">
-        <div id="bg" />
+      <div id="content" className="flex">
         <div id="content_left">
           <div className="content_left_inner">
             <Header />

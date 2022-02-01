@@ -31,6 +31,7 @@ function ticketSection(ticketInfo) {
       const li = <li>{bands[i]}</li>
       ul.appendChild(li)
     }
+    return ul
   }
   return (
     <div className={`ticket ${title}`}> 

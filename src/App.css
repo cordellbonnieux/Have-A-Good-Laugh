@@ -61,7 +61,7 @@ a:hover {
 
 .flex {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -114,6 +114,9 @@ header .section {
   background-color:rgba(0, 0, 0, 0.5);
 }
 
+#contact, .menu_button_wrapper_contact {
+  display:none!important;
+}
 
 #container {
   width:100%;
@@ -124,14 +127,6 @@ header .section {
 #header {
   min-height:300px;
   color:white;
-}
-
-#header_inner {
-
-}
-
-#header_inner_text {
-
 }
 
 .header_title {
@@ -154,9 +149,7 @@ header .section {
   top:0;
   width:100%;
 }
-/*
-* center for over 900px
-*/
+
 #menu_bar {
   display:flex;
   align-items:center;
@@ -167,9 +160,6 @@ header .section {
   padding:0 5px;
 }
 
-/*
-* main menu
-*/
 #menu_inner {
   display:none;
   text-align:center;
@@ -207,10 +197,10 @@ header .section {
   cursor:pointer;
 }
 
-*/
-/*
-* small screens
-*/
+@media screen and (max-width: 1600px) {
+
+}
+
 #content {
   display:flex;
   flex-wrap: wrap;
@@ -223,13 +213,10 @@ header .section {
   overflow:hidden;
 }
 
-.content_left_inner {
-
-}
-
 #content_right {
   max-width:600px;
   margin:10px auto 100px auto;
+  text-align:center;
 }
 
 .content_right_img {
@@ -245,10 +232,6 @@ header .section {
   }
 }
 
-/*
-* Tickets
-*/
-
 .ticket {
   max-width:38%;
 }
@@ -257,10 +240,6 @@ header .section {
   width:100%;
   max-width:600px;
 }
-
-/* 
-* Old HAGL flyers
-*/
 
 .oldFlyerWrapper {
   border: 5px solid transparent;
@@ -301,12 +280,6 @@ header .section {
   color:white;
   text-decoration: underline;
 }
-
-/*
-*
-* BAND LOGOS
-*
-*/
 
 #lineUp_container {
   text-align:center;
