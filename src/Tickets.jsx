@@ -16,7 +16,7 @@ function Tickets() {
   )
 
   return (
-    <Section dark={true} title={'Tickets On Sale Now!'} content={content} />
+    <Section dark={true} title={'Tickets'} content={content} />
   )
 }
 

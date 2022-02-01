@@ -9,11 +9,11 @@ export default function Section(props) {
     let titleWrapper;
     if (props.title.length > 1) {
         const title = props.title.charAt(0).toUpperCase() + props.title.slice(1);
-        const titleWrapper = (
+        titleWrapper = (
             <div className="section_title">
                 <h2>{title}</h2>
             </div>
-        );
+        )
     }
     
     return(

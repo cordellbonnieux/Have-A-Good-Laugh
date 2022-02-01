@@ -197,8 +197,26 @@ header .section {
   cursor:pointer;
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (min-width: 1600px) {
+  .menu_button_wrapper_Photos {
+    display:none;
+  }
 
+  #menu_mobile_button {
+    display:none;
+  }
+
+  #menu_inner {
+    display:inline-block;
+    width:50vw;
+    padding:0;
+    text-align:center;
+  }
+
+  #menu_bar {
+    display:inline-block; 
+    margin-left:25vw;
+  }
 }
 
 #content {

@@ -42,6 +42,9 @@ export default function Menu() {
         <div className="menu_button_wrapper menu_button_wrapper_contact">
           <a href="#contact" className="menu_button font_glass">Contact</a>
         </div>
+        <div className="menu_button_wrapper menu_button_wrapper_Photos">
+          <a href="#content_right" className="menu_button font_glass">Photos</a>
+        </div>
       </div>
     </div>
   );
