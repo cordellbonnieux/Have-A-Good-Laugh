@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'; 
 import Section from './Section';
 
 const exampleInfo = {
@@ -30,7 +30,7 @@ function ticketSection(ticketInfo) {
   const { title, url, bands } = ticketInfo;
   const bandList = bandsList(bands);
   return (
-    <div className={`ticket ${title}`}> 
+    <div className={`ticket ${title}`}>
       <h3>{title}</h3>
       {bandList}
       <a href={url}>{url}</a>

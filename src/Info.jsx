@@ -17,6 +17,7 @@ export default function Info() {
         bands from around the world for 3 days every June, since 2016.
       </p>
       <h4>Flyers/line-ups from previous years:</h4>
+      <p>Click on a flyer to download the full sized imaged.</p>
       <div id="oldFlyers" className="center">
         <div className="oldFlyerWrapper">
           <a href={hagl1} target="_blank" rel="noreferrer"><img id="hagl1" className="oldFlyer" src={hagl1} alt="hagl1" /></a>
@@ -44,25 +45,16 @@ export default function Info() {
         send us your music during this period.
       </p>
     </div>
-    <div id="info_inner_when" className="info_inner_section">
-      <h3>When can I buy tickets?</h3>
-      <p>
-        Tickets go on sale, right here on Febuary 5th.
-      </p>
-    </div>
     <div id="info_inner_where" className="info_inner_section">
       <h3>What venues will the fest be hosted at?</h3>
       <p>
-        Check back here for updates, all locations, times etc will be posted
-        here once we figure it all out.
+        The Budda - formerly the Smiling Budda Cabaret (now, sans ramp!), and The Bullet Farm.
       </p>
     </div>
     <div id="info_inner_allAges" className="info_inner_section">
       <h3>Will Have A Good Laugh be all ages this year?</h3>
       <p>
-        That is our plan, however we are currently working out the
-        details of our liquor license. We will confirm this when tickets
-        go on sale.
+        Yes, this will be the first Have A Good Laugh which is all-ages, there will be a bar section at each gig for those who are +19 and have two pieces of government issued photo ID.
       </p>
     </div>
   </div>
