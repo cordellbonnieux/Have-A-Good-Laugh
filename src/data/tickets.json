@@ -2,21 +2,23 @@
     "tickets": [
         {
             "title": "3 Day Pass - Main Gigs",
+            "day": 0,
             "description": "This ticket is valid for June 23, 24 and 25 main gigs at HAGL 2022, this includes Komintern Sect, Oi Polloi, and Sex Dwarf shows at the S.B.C.",
             "price": 100,
             "img": "hagl2022.jpg",
-            "url" : "",
-            "bands" : [
+            "url": "",
+            "bands": [
 
             ]
         },
         {
             "title": "Day 1 Main Gig: Komintern Sect",
+            "day": 1,
             "description": "This ticket is valid for the June 23 main gig, Komintern Sect plus guests at the S.B.C.",
             "price": 35,
             "img": "HAGL2022_Day1.jpg",
-            "url" : "",
-            "bands" : [
+            "url": "",
+            "bands": [
                 "Komintern Sect",
                 "Force Majeure",
                 "Beton Arme",
@@ -29,11 +31,12 @@
         },
         {
             "title": "Day 2 Main Gig: Oi Polloi",
+            "day": 2,
             "description": "This ticket is valid for the June 24 main gig, Oi Polloi plus guests at the S.B.C.",
             "price": 35,
             "img": "HAGL2022_Day2.jpg",
-            "url" : "",
-            "bands" : [
+            "url": "",
+            "bands": [
                 "Oi Polloi",
                 "Splatter Pattern",
                 "Vaxine",
@@ -46,17 +49,19 @@
         },
         {
             "title": "Day 3 Main Gig: Sex Dwarf",
+            "day": 3,
             "description": "This ticket is valid for the June 25 main gig, Sex Dwarf plus guests at the S.B.C.",
             "price": 35,
             "img": "HAGL2022_Day3.jpg",
-            "url" : "",
-            "bands" : [
+            "url": "",
+            "bands": [
                 "Sex Dwarf",
                 "War//Plague",
+                "End Result",
                 "Collapsed",
                 "Lockheed",
-                "End Result",
                 "Frantic",
+                "Krigsulvar",
                 "Horrendous 3D",
                 "Brutalize",
                 "Austringer"
