@@ -1,0 +1,66 @@
+{
+    "tickets": [
+        {
+            "title": "3 Day Pass - Main Gigs",
+            "description": "This ticket is valid for June 23, 24 and 25 main gigs at HAGL 2022, this includes Komintern Sect, Oi Polloi, and Sex Dwarf shows at the S.B.C.",
+            "price": 100,
+            "img": "hagl2022.jpg",
+            "url" : "",
+            "bands" : [
+
+            ]
+        },
+        {
+            "title": "Day 1 Main Gig: Komintern Sect",
+            "description": "This ticket is valid for the June 23 main gig, Komintern Sect plus guests at the S.B.C.",
+            "price": 35,
+            "img": "HAGL2022_Day1.jpg",
+            "url" : "",
+            "bands" : [
+                "Komintern Sect",
+                "Force Majeure",
+                "Beton Arme",
+                "Dead Cells",
+                "Terminal City Rats",
+                "Toy Tiger",
+                "Schedule 1",
+                "Crosshairs"
+            ]
+        },
+        {
+            "title": "Day 2 Main Gig: Oi Polloi",
+            "description": "This ticket is valid for the June 24 main gig, Oi Polloi plus guests at the S.B.C.",
+            "price": 35,
+            "img": "HAGL2022_Day2.jpg",
+            "url" : "",
+            "bands" : [
+                "Oi Polloi",
+                "Splatter Pattern",
+                "Vaxine",
+                "Fractured",
+                "Phane",
+                "Mano Fico",
+                "Hope?",
+                "Smuther"
+            ]
+        },
+        {
+            "title": "Day 3 Main Gig: Sex Dwarf",
+            "description": "This ticket is valid for the June 25 main gig, Sex Dwarf plus guests at the S.B.C.",
+            "price": 35,
+            "img": "HAGL2022_Day3.jpg",
+            "url" : "",
+            "bands" : [
+                "Sex Dwarf",
+                "War//Plague",
+                "Collapsed",
+                "Lockheed",
+                "End Result",
+                "Frantic",
+                "Horrendous 3D",
+                "Brutalize",
+                "Austringer"
+            ]
+        }
+    ]
+}
