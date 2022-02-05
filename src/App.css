@@ -229,6 +229,7 @@ header .section {
   max-width:1000px;
   margin:10px auto 100px auto;
   overflow:hidden;
+  background-color: #000;
 }
 
 #content_right {
@@ -251,7 +252,31 @@ header .section {
 }
 
 .ticket {
-  max-width:38%;
+  max-width: 360px;
+  background-image: url('./images/assets/texture_light3.jpg');
+  background-color: #fff;
+  color: #000;
+  padding:10px;
+  margin:10px;
+}
+
+.ticket h3 {
+  background-color: transparent!important;
+}
+
+.ticket ul {
+  margin:0;
+  padding:0;
+}
+
+.ticket ul li {
+  list-style: none;
+  display:inline-block;
+  margin:5px 10px;
+}
+
+.ticket img {
+  max-width:100%;
 }
 
 #flyer2022 {
@@ -466,10 +491,6 @@ header .section {
 
 #austringer {
   background-image: url("./images/logos/austringer.png");
-}
-
-#splatterpattern {
-  background-image: url("./images/logos/splatter_pattern.png");
 }
 
 #krash {
