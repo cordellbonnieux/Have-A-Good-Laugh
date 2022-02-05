@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.744806ce.css",
-    "main.js": "/static/js/main.57f5fb84.js",
+    "main.css": "/static/css/main.3b8fca28.css",
+    "main.js": "/static/js/main.fb56bf61.js",
     "static/media/hagl1.jpg": "/static/media/hagl1.004853b8a604dd622a3c.jpg",
     "static/media/HAGL2022.jpg": "/static/media/HAGL2022.ae42bea2a13b9dec9d94.jpg",
     "static/media/hagl3.jpg": "/static/media/hagl3.5763c75e217760dbea3a.jpg",
     "static/media/schedule1.png": "/static/media/schedule1.0150c9efdb5dbeee524b.png",
     "static/media/texture_light3.jpg": "/static/media/texture_light3.168d39666f88b832d8b3.jpg",
+    "static/media/HAGL2022_Day2.jpg": "/static/media/HAGL2022_Day2.2e7485ecb6493971d317.jpg",
     "static/media/siege_fire.png": "/static/media/siege_fire.ecddcf3754a51139d3dc.png",
     "static/media/meuco.jpg": "/static/media/meuco.4303f587c7c50b96f4ca.jpg",
+    "static/media/HAGL2022_Day3.jpg": "/static/media/HAGL2022_Day3.7e080f9ff42f8ffb49f0.jpg",
     "static/media/moor.jpg": "/static/media/moor.b167058be0959d83b10e.jpg",
+    "static/media/HAGL2022_Day1.jpg": "/static/media/HAGL2022_Day1.a290781da0165df07f1e.jpg",
     "static/media/whip-its.jpg": "/static/media/whip-its.b9f4ce1c2a0f7200b145.jpg",
     "static/media/ass.jpg": "/static/media/ass.3f387233438d274b6f0d.jpg",
     "static/media/rosa.jpg": "/static/media/rosa.fa44ebb251588a0a2935.jpg",
@@ -42,6 +45,7 @@
     "static/media/languid.png": "/static/media/languid.8a0785ec454293356054.png",
     "static/media/collapsed.png": "/static/media/collapsed.0710547e3210ac5a5fb1.png",
     "static/media/glashou.ttf": "/static/media/glashou.80e8b58e056fa6f56cdc.ttf",
+    "static/media/austringer.png": "/static/media/austringer.f5a892f0eb7779a86ad0.png",
     "static/media/lockheed.png": "/static/media/lockheed.ae641e31cbd3c39ec7cf.png",
     "static/media/metallian.png": "/static/media/metallian.e696365f754bb72ab66a.png",
     "static/media/adrenochrome.png": "/static/media/adrenochrome.ffb0540f8e3d7644274f.png",
@@ -49,16 +53,17 @@
     "static/media/smuther.png": "/static/media/smuther.7287615b8b2d11f52ac1.png",
     "static/media/toy_tiger.png": "/static/media/toy_tiger.87c1bf529fef19d5f23f.png",
     "static/media/krigsulvar.png": "/static/media/krigsulvar.2ec921607eadc1b3dae1.png",
+    "static/media/krash.png": "/static/media/krash.dc422ea64388164c02bb.png",
     "static/media/war_plague.png": "/static/media/war_plague.447d8a15dd06b6af02a4.png",
     "static/media/hellbender.png": "/static/media/hellbender.84827581ac91fc6845d7.png",
     "static/media/vaxine.png": "/static/media/vaxine.cce73e63ac6bcdfeb991.png",
     "static/media/crosshairs.png": "/static/media/crosshairs.7b0abd4c95b4c0526c50.png",
     "index.html": "/index.html",
-    "main.744806ce.css.map": "/static/css/main.744806ce.css.map",
-    "main.57f5fb84.js.map": "/static/js/main.57f5fb84.js.map"
+    "main.3b8fca28.css.map": "/static/css/main.3b8fca28.css.map",
+    "main.fb56bf61.js.map": "/static/js/main.fb56bf61.js.map"
   },
   "entrypoints": [
-    "static/css/main.744806ce.css",
-    "static/js/main.57f5fb84.js"
+    "static/css/main.3b8fca28.css",
+    "static/js/main.fb56bf61.js"
   ]
 }
