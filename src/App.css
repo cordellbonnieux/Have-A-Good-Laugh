@@ -197,6 +197,25 @@ header .section {
   cursor:pointer;
 }
 
+#schedule table {
+  background-color:#fff;
+  background-image: url('./images/assets/texture_light3.jpg');
+  background-repeat: repeat;
+  color:#000;
+  margin: auto;
+}
+
+#schedule table tr th {
+  background-color: red;
+  color: #fff;
+  padding: 2px;
+}
+
+#schedule table tr td {
+  font-weight: bold;
+  border: 2px solid #000;
+}
+
 @media screen and (min-width: 1600px) {
   .menu_button_wrapper_Photos {
     display:none;

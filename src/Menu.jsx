@@ -17,7 +17,7 @@ export default function Menu() {
       <div id="menu_bar">
         <div id="menu_title_wrapper" className="left fullWidth">
           <div className="menu_title font_glass">
-            <a href="header">
+            <a href="https://haveagoodlaugh.org">
               HAVE A GOOD LAUGH
             </a>
           </div>
