@@ -33,6 +33,9 @@ export default function Menu() {
         <div className="menu_button_wrapper menu_button_wrapper_lineUp">
           <a href="#lineUp" className="menu_button font_glass">Line-up</a>
         </div>
+        <div className="menu_button_wrapper menu_button_wrapper_schedule">
+          <a href="#schedule" className="menu_button font_glass">Schedule</a>
+        </div>
         <div className="menu_button_wrapper menu_button_wrapper_info">
           <a href="#info" className="menu_button font_glass">Info</a>
         </div>

@@ -1,11 +1,13 @@
 import React from 'react';
+import Section from './Section';
 
 export default function Contact() {
+  const content = (
+    <form action="https://formsubmit.co/thoughtdecayrecords@gmail.com" method="POST">
+      <input type="text" name="name" value="your name"></input>
+    </form>
+  )
   return (
-    <section id="contact" className="section section_dark">
-      <div id="contact_inner">
-        <h2>Send us an email</h2>
-      </div>
-    </section>
+    <Section dark={false} title={"Contact"} content={content}/>
   );
 }
