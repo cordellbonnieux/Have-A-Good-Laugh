@@ -57,9 +57,15 @@ export default function Info() {
         Yes, this will be the first Have A Good Laugh which is all-ages, there will be a bar section at each gig for those who are +19 and have two pieces of government issued photo ID.
       </p>
     </div>
+    <div id="info_inner_tickets" className="info_inner_section">
+      <h3>Where can I pick up my tickets?</h3>
+      <p>
+        Just bring a piece of ID to the door of the gig(s) you bought tickets for and you'll recieve your pass in return.
+      </p>
+    </div>
   </div>
   );
   return (
-    <Section dark={true} title={"Info"} content={content} />
+    <Section dark={false} title={"Info"} content={content} />
   );
 }

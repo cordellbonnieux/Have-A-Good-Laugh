@@ -49,6 +49,6 @@ export default function Videos() {
         console.error(e);
     }
     return (
-        <Section dark={false} title={'Videos'} content={content} />
+        <Section dark={true} title={'Videos'} content={content} />
     )
 }

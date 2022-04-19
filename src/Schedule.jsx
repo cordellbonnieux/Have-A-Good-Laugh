@@ -1,5 +1,6 @@
 import React from 'react';
 import data from './data/schedule.json'
+import Section from './Section'
 
 export default function Schedule() {
     let trs = [
@@ -62,16 +63,28 @@ export default function Schedule() {
         </tr>
         trs.push(tr);
     }
-    return (
-      <section id="lineUp_container" className="section_dark section">
-          <div className="section_inner center">
-              <div className="section_title">
-                  <h2>Schedule</h2>
-              </div>
-              <table>
+    const content = (
+        <div>
+            <table>
                 {trs}
-              </table>
-          </div>
-      </section>
+            </table>
+            <div className="left">
+                <h3>Venues</h3>
+                <ul>
+                    <li>
+                        The Buddah - 109 E Hastings (back entrance)
+                    </li>
+                    <li>
+                        The Bullet Farm - 825 E Hastings (back entrance)
+                    </li>
+                    <li>
+                        Undisclosed location will be revealed at the day 3 main gig!
+                    </li>
+                </ul>
+            </div>
+        </div>
+    )
+    return (
+        <Section dark={true} title={"Schedule"} content={content} />
     )
 }
