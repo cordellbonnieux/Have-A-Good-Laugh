@@ -6,6 +6,7 @@ import Contact from './Contact';
 import Right from './Right';
 import Videos from './Videos';
 import Header from './Header';
+import Schedule from './Schedule';
 
 export default function Content() {
     return (
@@ -15,6 +16,7 @@ export default function Content() {
             <Header />
             <Tickets />
             <LineUp />
+            <Schedule />
             <Info />
             <Videos />
             <Contact />

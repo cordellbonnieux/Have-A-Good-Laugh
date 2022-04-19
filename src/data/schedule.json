@@ -1,4 +1,26 @@
 {
+    "times" : [
+        "2:00 pm",
+        "2:30 pm",
+        "3:00 pm",
+        "3:30 pm",
+        "4:00 pm",
+        "4:30 pm",
+        "5:00 pm",
+        "6:00 pm",
+        "6:30 pm",
+        "7:00 pm",
+        "7:30 pm",
+        "8:00 pm",
+        "8:45 pm",
+        "9:30 pm",
+        "10:15 pm",
+        "11:00 pm",
+        "11:45 pm",
+        "12:30 am",
+        "1:00 am",
+        "1:30 am"
+    ],
     "day1": [
         {"type": null, "value": null},
         {"type": null, "value": null},
@@ -19,18 +41,15 @@
         {"type": "header", "value": "Doors @ The Bullet Farm"},
         {"type": "band", "value": "Arenochrome"},
         {"type": "band", "value": "The Moor"},
-        {"type": null, "value": null},
-        {"type": null, "value": null},
         {"type": null, "value": null}
     ],
-        "day2": [
+    "day2": [
         {"type": null, "value": null},
         {"type": null, "value": null},
         {"type": null, "value": null},
         {"type": "header", "value": "Doors @ The Bullet Farm (Punk Market)"},
         {"type": "band", "value": "Voltage"},
         {"type": "band", "value": "Deadwolff"},
-        {"type": null, "value": null},
         {"type": null, "value": null},
         {"type": null, "value": null},
         {"type": "header", "value": "Doors @ The Buddha"},
@@ -44,7 +63,6 @@
         {"type": "header", "value": "Doors @ The Bullet Farm"},
         {"type": "band", "value": "Disposal"},
         {"type": "band", "value": "Blood Ties"},
-        {"type": null, "value": null},
         {"type": null, "value": null}
     ],
     "day3": [
@@ -65,7 +83,8 @@
         {"type": "band", "value": "Collapsed"},
         {"type": "band", "value": "End Result"},
         {"type": "band", "value": "War//Plague"},
-        {"type": "band", "value": "Undisclosed Location"},
+        {"type": "band", "value": "Sex Dwarf"},
+        {"type": "header", "value": "Undisclosed Location"},
         {"type": "band", "value": "Krash"},
         {"type": null, "value": null}
     ]
