@@ -3,7 +3,7 @@ import Section from './Section';
 
 export default function Contact() {
   const content = (
-    <form action="https://formsubmit.co/68f6a08c49448df769a04e2527f0af1e" method="POST">
+    <form action="https://formsubmit.co/68f6a08c49448df769a04e2527f0af1e" method="POST" className="autoMargin">
       <div>
         <label for="name">Name</label>
         <input type="text" name="name" id="name"></input>
@@ -12,7 +12,7 @@ export default function Contact() {
         <label for="email">Email</label>
         <input type="email" name="email" id="email"></input>
       </div>
-      <div className="left">
+      <div>
         <label for="message">What's on your mind?</label>
         <textarea id="message" name="message">
         </textarea>
