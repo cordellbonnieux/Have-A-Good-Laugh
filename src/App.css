@@ -77,6 +77,11 @@ a:hover {
   text-align: right;
 }
 
+.autoMargin {
+  margin: auto;
+  display: inline-block;
+}
+
 .fullWidth {
   width:100%;
 }

@@ -68,19 +68,21 @@ export default function Schedule() {
             <table>
                 {trs}
             </table>
-            <div className="left">
-                <h3>Venues</h3>
-                <ul>
-                    <li>
-                        The Buddah - 109 E Hastings (back entrance)
-                    </li>
-                    <li>
-                        The Bullet Farm - 825 E Hastings (back entrance)
-                    </li>
-                    <li>
-                        Undisclosed location will be revealed at the day 3 main gig!
-                    </li>
-                </ul>
+            <div className="autoMargin">
+                <div className="left">
+                    <h3>Venues</h3>
+                    <ul>
+                        <li>
+                            The Buddah - 109 E Hastings (back entrance)
+                        </li>
+                        <li>
+                            The Bullet Farm - 825 E Hastings (back entrance)
+                        </li>
+                        <li>
+                            Undisclosed location will be revealed at the day 3 main gig!
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     )
