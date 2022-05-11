@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.5f557a38.css",
-    "main.js": "/static/js/main.7c6782a1.js",
+    "main.js": "/static/js/main.2c0023f7.js",
     "static/media/hagl1.jpg": "/static/media/hagl1.004853b8a604dd622a3c.jpg",
-    "static/media/HAGL2022.jpg": "/static/media/HAGL2022.ae42bea2a13b9dec9d94.jpg",
+    "static/media/HAGL2022.jpg": "/static/media/HAGL2022.c5671e76e6aedb96fe74.jpg",
     "static/media/hagl3.jpg": "/static/media/hagl3.5763c75e217760dbea3a.jpg",
     "static/media/schedule1.png": "/static/media/schedule1.0150c9efdb5dbeee524b.png",
     "static/media/texture_light3.jpg": "/static/media/texture_light3.168d39666f88b832d8b3.jpg",
     "static/media/siege_fire.png": "/static/media/siege_fire.ecddcf3754a51139d3dc.png",
     "static/media/HAGL2022_Day2.jpg": "/static/media/HAGL2022_Day2.acfd74ea128e745e79d4.jpg",
     "static/media/meuco.jpg": "/static/media/meuco.4303f587c7c50b96f4ca.jpg",
-    "static/media/HAGL2022_Day3.jpg": "/static/media/HAGL2022_Day3.417ac206a644324f4c78.jpg",
+    "static/media/HAGL2022_Day3.jpg": "/static/media/HAGL2022_Day3.ef88bfb2b6d9b66ea068.jpg",
     "static/media/moor.jpg": "/static/media/moor.b167058be0959d83b10e.jpg",
     "static/media/HAGL2022_Day1.jpg": "/static/media/HAGL2022_Day1.2eb71303a11092aed691.jpg",
     "static/media/whip-its.jpg": "/static/media/whip-its.b9f4ce1c2a0f7200b145.jpg",
@@ -60,10 +60,10 @@
     "static/media/crosshairs.png": "/static/media/crosshairs.7b0abd4c95b4c0526c50.png",
     "index.html": "/index.html",
     "main.5f557a38.css.map": "/static/css/main.5f557a38.css.map",
-    "main.7c6782a1.js.map": "/static/js/main.7c6782a1.js.map"
+    "main.2c0023f7.js.map": "/static/js/main.2c0023f7.js.map"
   },
   "entrypoints": [
     "static/css/main.5f557a38.css",
-    "static/js/main.7c6782a1.js"
+    "static/js/main.2c0023f7.js"
   ]
 }
