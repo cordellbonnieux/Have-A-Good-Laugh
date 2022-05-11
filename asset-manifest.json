@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.5f557a38.css",
+    "main.css": "/static/css/main.d9ce3be0.css",
     "main.js": "/static/js/main.2c0023f7.js",
     "static/media/hagl1.jpg": "/static/media/hagl1.004853b8a604dd622a3c.jpg",
     "static/media/HAGL2022.jpg": "/static/media/HAGL2022.c5671e76e6aedb96fe74.jpg",
@@ -59,11 +59,11 @@
     "static/media/vaxine.png": "/static/media/vaxine.cce73e63ac6bcdfeb991.png",
     "static/media/crosshairs.png": "/static/media/crosshairs.7b0abd4c95b4c0526c50.png",
     "index.html": "/index.html",
-    "main.5f557a38.css.map": "/static/css/main.5f557a38.css.map",
+    "main.d9ce3be0.css.map": "/static/css/main.d9ce3be0.css.map",
     "main.2c0023f7.js.map": "/static/js/main.2c0023f7.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f557a38.css",
+    "static/css/main.d9ce3be0.css",
     "static/js/main.2c0023f7.js"
   ]
 }
