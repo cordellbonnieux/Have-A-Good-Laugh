@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.d9ce3be0.css",
-    "main.js": "/static/js/main.2c0023f7.js",
+    "main.css": "/static/css/main.f5619bf4.css",
+    "main.js": "/static/js/main.4ccf7d88.js",
     "static/media/hagl1.jpg": "/static/media/hagl1.004853b8a604dd622a3c.jpg",
-    "static/media/HAGL2022.jpg": "/static/media/HAGL2022.c5671e76e6aedb96fe74.jpg",
+    "static/media/HAGL2022.jpg": "/static/media/HAGL2022.da0f103a5620089ecd1b.jpg",
     "static/media/hagl3.jpg": "/static/media/hagl3.5763c75e217760dbea3a.jpg",
     "static/media/schedule1.png": "/static/media/schedule1.0150c9efdb5dbeee524b.png",
     "static/media/texture_light3.jpg": "/static/media/texture_light3.168d39666f88b832d8b3.jpg",
@@ -27,6 +27,7 @@
     "static/media/hagl4.jpg": "/static/media/hagl4.20e0c4ea580d4458f983.jpg",
     "static/media/deadwolff.png": "/static/media/deadwolff.fe5a0866394732e31552.png",
     "static/media/frantic.png": "/static/media/frantic.d9b14a60d6af287ffc7c.png",
+    "static/media/blix.png": "/static/media/blix.7255c6688d800f2926a8.png",
     "static/media/the_moor.png": "/static/media/the_moor.672c2406a5aba909c7af.png",
     "static/media/fractured.png": "/static/media/fractured.5868dbc0997f7ebc3011.png",
     "static/media/phane.png": "/static/media/phane.3eb6a66029c2ee789f71.png",
@@ -59,11 +60,11 @@
     "static/media/vaxine.png": "/static/media/vaxine.cce73e63ac6bcdfeb991.png",
     "static/media/crosshairs.png": "/static/media/crosshairs.7b0abd4c95b4c0526c50.png",
     "index.html": "/index.html",
-    "main.d9ce3be0.css.map": "/static/css/main.d9ce3be0.css.map",
-    "main.2c0023f7.js.map": "/static/js/main.2c0023f7.js.map"
+    "main.f5619bf4.css.map": "/static/css/main.f5619bf4.css.map",
+    "main.4ccf7d88.js.map": "/static/js/main.4ccf7d88.js.map"
   },
   "entrypoints": [
-    "static/css/main.d9ce3be0.css",
-    "static/js/main.2c0023f7.js"
+    "static/css/main.f5619bf4.css",
+    "static/js/main.4ccf7d88.js"
   ]
 }
