@@ -63,12 +63,6 @@ export default function Info() {
         Just bring a piece of ID to the door of the gig(s) you bought tickets for and you'll recieve your pass in return.
       </p>
     </div>
-    <div id="info_inner_vend" className="info_inner_section">
-      <h3>Can I vend at the punk market? How do I sign up?</h3>
-      <p>
-        No need, we will have ample tables set up, all we ask is that you show up about a half-hour early to set up.
-      </p>
-    </div>
   </div>
   );
   return (

@@ -157,10 +157,10 @@
             "music":"https://brutalize.bandcamp.com/"
         },
         {
-            "name":"Krigsulvar",
-            "location":"Portland, USA",
-            "logo":"krigsulvar.png",
-            "music":"https://krigsulvarpdx.bandcamp.com/album/raw-demo"
+            "name":"Blix",
+            "location":"Vancouver, Canada",
+            "logo":"blix.png",
+            "music":"https://blixpunk.bandcamp.com/releases"
         },
         {
             "name":"Horrendous 3D",
@@ -181,12 +181,6 @@
             "music":"https://collapsedmtl.bandcamp.com/"
         },
         {
-            "name":"End Result",
-            "location":"Los Angeles, USA",
-            "logo":"end_result.png",
-            "music":"https://endresult.bandcamp.com/"
-        },
-        {
             "name":"War//Plague",
             "location":"Minneapolis, USA",
             "logo":"war_plague.png",
@@ -194,7 +188,7 @@
         },
         {
             "name":"Besthoven",
-            "location":"São Paulo, Brazil",
+            "location":"Gima City, Brazil",
             "logo":"besthoven.png",
             "music":"https://besthoven.bandcamp.com/"
         },

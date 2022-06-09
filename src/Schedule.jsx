@@ -73,7 +73,7 @@ export default function Schedule() {
                     <h3>Venues</h3>
                     <ul>
                         <li>
-                            The Buddah - 109 E Hastings (back entrance)
+                            The Buddah - 109 E Hastings
                         </li>
                         <li>
                             The Bullet Farm - 825 E Hastings (back entrance)
