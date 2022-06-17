@@ -23,12 +23,21 @@ function Tickets() {
   const ticket2 = ticketSection(t2);
   const ticket3 = ticketSection(t3);
   const ticket0 = ticketSection(t0);
-  const content = (
+
+  const ticketSalesEndDate = new Date(2022, 5, 0, 0, 0, 0)
+  const content = new Date() < ticketSalesEndDate ? (
     <div className="tickets flex">
       {ticket0}
       {ticket1}
       {ticket2}
       {ticket3}
+    </div>
+  ) :
+  (
+    <div className="tickets">
+      <p> Presale tickets period has ended, however there will be tickets at the door of each show, check the 
+        <a href="#schedule"> schedule</a> for gig start times to make sure you're on time to get spot!
+      </p>
     </div>
   )
 
