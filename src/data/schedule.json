@@ -9,17 +9,17 @@
         "4:30 pm",
         "5:15 pm",
         "6:00 pm",
-        "6:45 pm",
-        "7:30 pm",
-        "8:15 pm",
-        "9:00 pm",
-        "9:45 pm",
-        "10:30 pm",
-        "11:15 pm",
-        "12:00 am",
-        "1:00 am",
-        "1:45 am",
-        "2:30 am"
+        "6:15 pm",
+        "7:00 pm",
+        "7:45 pm",
+        "8:30 pm",
+        "9:15 pm",
+        "10:00 pm",
+        "10:45 pm",
+        "11:30 am",
+        "12:45 am",
+        "1:30 am",
+        "2:15 am"
     ],
     "day1": [
         {"type": null, "value": null},
@@ -40,8 +40,8 @@
         {"type": "band", "value": "Force Majeure"},
         {"type": "band", "value": "Komintern Sect"},
         {"type": "header", "value": "Doors @ The Bullet Farm"},
-        {"type": "band", "value": "Arenochrome"},
-        {"type": "band", "value": "The Moor"}
+        {"type": "band", "value": "The Moor"},
+        {"type": null, "value": null}
     ],
     "day2": [
         {"type": "header", "value": "Doors @ The Bullet Farm (Punk Market)"},
@@ -50,7 +50,6 @@
         {"type": "band", "value": "Blix"},
         {"type": "band", "value": "Voltage"},
         {"type": "band", "value": "Deadwolff"},
-        {"type": null, "value": null},
         {"type": null, "value": null},
         {"type": null, "value": null},
         {"type": "header", "value": "Doors @ The Buddha"},
@@ -63,13 +62,14 @@
         {"type": "band", "value": "Oi Polloi"},
         {"type": "header", "value": "Doors @ The Bullet Farm"},
         {"type": "band", "value": "Disposal"},
-        {"type": "band", "value": "Blood Ties"}
+        {"type": "band", "value": "Blood Ties"},
+        {"type": null, "value": null}
     ],
     "day3": [
+        {"type": null, "value": null},
+        {"type": null, "value": null},
         {"type": "header", "value": "Doors @ The Bullet Farm"},
         {"type": "band", "value": "Hellbender"},
-        {"type": "band", "value": "Siege Fire"},
-        {"type": "band", "value": "Hellish Inferno"},
         {"type": "band", "value": "Warkrusher"},
         {"type": "band", "value": "Languid"},
         {"type": null, "value": null},
@@ -77,14 +77,14 @@
         {"type": "header", "value": "Doors @ The Buddha"},
         {"type": "band", "value": "Austringer"},
         {"type": "band", "value": "Brutalize"},
-        {"type": "band", "value": "Horrendous 3D"},
+        {"type": "band", "value": "Deathknell"},
         {"type": "band", "value": "Frantic"},
-        {"type": "band", "value": "Lockheed"},
         {"type": "band", "value": "Collapsed"},
         {"type": "band", "value": "War//Plague"},
         {"type": "band", "value": "Besthoven"},
         {"type": "header", "value": "Undisclosed Location"},
         {"type": "band", "value": "Krash"},
+        {"type": null, "value": null},
         {"type": null, "value": null}
     ]
 }
