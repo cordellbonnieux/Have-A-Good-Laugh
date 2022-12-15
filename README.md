@@ -1,3 +1,3 @@
-Website for Have A Good Laugh Festival, created using Node.js / React.js.
+Website for Have A Good Laugh Festival, created using React.
 
 https://haveagoodlaugh.org
