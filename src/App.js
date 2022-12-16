@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react'
 import './App.css'
 import './fonts/glashou.ttf'
 import Menu from './Menu'
@@ -6,11 +7,10 @@ import Footer from './Footer'
 import Contact from './Contact'
 
 function App() {
-
-  const now = new Date()
+  const [ now, setNow ] = useState(new Date())
   const announce = new Date('01/01/2023')
   const end = new Date('25/06/2023')
-  const live = now >= new Date('01/01/2023') &&  now < end ? true : false
+  const live = new Date() >= new Date('01/01/2023') &&  new Date() < end ? true : false
 
   const app = (
     <div className="App" id="container">
@@ -21,22 +21,18 @@ function App() {
     </div>
   )
 
-  const preHAGL = (
+  const notHAGL = (
     <div className="App" id="container">
       <div id="bg" />
-      Annoounce in x-many days
+      <div className='section section_dark'>
+        <h1>Have A Good Laugh</h1>
+        <h2>Line-up announcement in {31 - now.getDate()} days and {12 - (now.getMonth() + 1)} months.</h2>
+      </div>
       <Contact />
     </div>
   )
 
-  const postHAGL = (
-    <div className="App" id="container">
-      <div id="bg" />
-      Annoounce in x-many days
-    </div> 
-  )
-
-  return live ? app : preHAGL
+  return now >= announce && now < end ?  app : notHAGL
 }
 
 export default App
