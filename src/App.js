@@ -6,6 +6,8 @@ import Content from './Content'
 import Footer from './Footer'
 import Contact from './Contact'
 
+import flyer from './images/flyers/hagl2023_anim.gif'
+
 function App() {
   const [ now, setNow ] = useState(new Date())
   const announce = new Date('01/01/2023')
@@ -21,6 +23,18 @@ function App() {
     </div>
   )
 
+  const announceApp = (
+    <div className="App" id="container">
+      <div id="bg" />
+      <div className='section section_dark'>
+        <h1>Have A Good Laugh</h1>
+        <img src={flyer} alt='Have A good Laugh 2023 Animated Announce Flyer' style={{maxWidth: '100%'}}/>
+        <h2>Tickets, line-up, venues and more right here on Februray 5th!</h2>
+      </div>
+      <Contact />
+    </div>
+  )
+
   const notHAGL = (
     <div className="App" id="container">
       <div id="bg" />
@@ -32,7 +46,7 @@ function App() {
     </div>
   )
 
-  return now >= announce && now < end ?  app : notHAGL
+  return now >= announce && now < end ?  announceApp : notHAGL
 }
 
 export default App
