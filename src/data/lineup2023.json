@@ -80,7 +80,7 @@
         },
         {
             "name":"Long Knife",
-            "location":"Oregon, U.S.A.",
+            "location":"Portland, U.S.A.",
             "logo":"2023/long-knife.png",
             "music":"https://longknife.bandcamp.com/"
         },
@@ -137,12 +137,6 @@
             "location":"Edmonton, Canada",
             "logo":"2023/languid.jpg",
             "music":"https://languidpunk.bandcamp.com/"
-        },
-        {
-            "name":"Brutalize",
-            "location":"Vancouver, Canada",
-            "logo":"2023/brutalize.png",
-            "music":"https://brutalize.bandcamp.com/"
         },
         {
             "name":"Skraeling",

@@ -1,5 +1,5 @@
 import React from 'react';
-import data from './data/lineup2022.json';
+import data from './data/lineup2023.json';
 
 export default function LineUp() {
   const output = [];

@@ -1,5 +1,5 @@
 import React from 'react';
-import data from './data/schedule.json'
+import data from './data/schedule2023.json'
 import Section from './Section'
 
 export default function Schedule() {
