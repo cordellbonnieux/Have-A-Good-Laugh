@@ -1,0 +1,184 @@
+{
+    "bands": [
+        {
+            "name":"Anthropoda",
+            "location":"Chilliwack, B.C., Canada",
+            "logo":"2023/anthrapoda.png",
+            "music":"https://arthropoda1.bandcamp.com/album/arthropoda"
+        },
+        {
+            "name":"Chain Whip",
+            "location":"Vancouver, B.C., Canada",
+            "logo":"2023/chain-whip.png",
+            "music":"https://chainwhip.bandcamp.com/"
+        },
+        {
+            "name":"Sinbeunos",
+            "location":"Texas, U.S.A.",
+            "logo":"2023/sinbuenos.png",
+            "music":"https://sinbuenos.hearnow.com/"
+        },
+        {
+            "name":"No Heart",
+            "location":"Victoria, B.C., Canada",
+            "logo":"2023/no-heart.png",
+            "music":"https://noheartvanisle.bandcamp.com/"
+        },
+        {
+            "name":"Out Of Order",
+            "location":"Montreal, Qc, Canada",
+            "logo":"2023/out-of-order.png",
+            "music":"https://outofordercanada.bandcamp.com/"
+        },
+        {
+            "name":"Concrete Bollocks",
+            "location":"Derby, England",
+            "logo":"2023/concrete-bollocks.png",
+            "music":"https://concretebollocks.bandcamp.com/"
+        },
+        {
+            "name":"No Problem",
+            "location":"Edmonton, Ab, Canada",
+            "logo":"2023/no-problem.png",
+            "music":"https://www.youtube.com/watch?v=PQlUp7vpGeM"
+        },
+        {
+            "name":"Mess",
+            "location":"CDMX, México",
+            "logo":"2023/mess.png",
+            "music":"https://www.youtube.com/watch?v=q0GEZFjIHh0"
+        },
+        {
+            "name":"Dust Blaster",
+            "location":"Vancouver, B.C., Canada",
+            "logo":"2023/dust-blaster.png",
+            "music":"https://dustblaster.bandcamp.com/"
+        },
+        {
+            "name":"IQ78",
+            "location":"Victoria, B.C., Canada",
+            "logo":"2023/iq78.png",
+            "music":""
+        },
+        {
+            "name":"Destructive",
+            "location":"Québec, Qc, Canada",
+            "logo":"2023/destructive.png",
+            "music":"https://destructive.bandcamp.com/"
+        },
+        {
+            "name":"Suspex",
+            "location":"Halifax, Ns, Canada",
+            "logo":"2023/suspex.png",
+            "music":"https://greymattertapes.bandcamp.com/album/suspex-demo"
+        },
+        {
+            "name":"Unwanted Noise",
+            "location":"Québec, Qc, Canada",
+            "logo":"2023/unwanted-noise.png",
+            "music":"https://unwantednoiseofficial.bandcamp.com/"
+        },
+        {
+            "name":"Long Knife",
+            "location":"Oregon, U.S.A.",
+            "logo":"2023/long-knife.png",
+            "music":"https://longknife.bandcamp.com/"
+        },
+        {
+            "name":"Chaotic Dischord",
+            "location":"Bristol, England",
+            "logo":"2023/chaotic-dischord.png",
+            "music":"https://www.youtube.com/watch?v=s0O6ygAi5l4"
+        },
+        {
+            "name":"Homefront",
+            "location":"Edmonton, Ab, Canada",
+            "logo":"2023/homefront.png",
+            "music":"https://lavidaesunmus.bandcamp.com/album/think-of-the-lie"
+        },
+        {
+            "name":"Chaos Disorder and Panic",
+            "location":"Vancouver, B.C., Canada",
+            "logo":"2023/cdp.png",
+            "music":"https://chaosdisorderandpanic.bandcamp.com/album/chaos-theory"
+        },
+        {
+            "name":"Incinerous",
+            "location":"Vancouver, B.C., Canada",
+            "logo":"2023/incinerous.png",
+            "music":""
+        },
+        {
+            "name":"Trenchraid",
+            "location":"Sechelt, B.C., Canada",
+            "logo":"2023/trenchraid.png",
+            "music":"https://trenchraid.bandcamp.com/album/demo-2022"
+        },
+        {
+            "name":"Siege Fire",
+            "location":"Portland, USA",
+            "logo":"2023/siege-fire.png",
+            "music":"https://siegefire.bandcamp.com/album/storms-of-radiation-demo"
+        },
+        {
+            "name":"Death Gasp",
+            "location":"Pittsburg, USA",
+            "logo":"2023/death-gasp.png",
+            "music":"https://deathgasp.bandcamp.com/album/stranglehold-ep-2"
+        },
+        {
+            "name":"Scheme",
+            "location":"Vancouver, B.C., Canada",
+            "logo":"2023/scheme.png",
+            "music":"https://schemepunk.bandcamp.com/"
+        },
+        {
+            "name":"Languid",
+            "location":"Edmonton, Canada",
+            "logo":"2023/languid.jpg",
+            "music":"https://languidpunk.bandcamp.com/"
+        },
+        {
+            "name":"Brutalize",
+            "location":"Vancouver, Canada",
+            "logo":"2023/brutalize.png",
+            "music":"https://brutalize.bandcamp.com/"
+        },
+        {
+            "name":"Skraeling",
+            "location":"Sechelt, B.C., Canada",
+            "logo":"2023/scraling.png",
+            "music":"https://www.facebook.com/profile.php?id=100063447350638"
+        },
+        {
+            "name":"Dust Collector",
+            "location":"Los Angeles, USA",
+            "logo":"2023/dust-collector.png",
+            "music":"https://dustcollectorpunk.bandcamp.com/album/dust-collector-s-t"
+        },
+        {
+            "name":"Los Revolutionarios",
+            "location":"Saltillo, Mexico",
+            "logo":"2023/los-revolutionarios.png",
+            "music":"https://losrevolucionarios.bandcamp.com/album/control"
+        },
+        {
+            "name":"Electronic Masochist",
+            "location":"Berlin, Germany",
+            "logo":"2023/electronic-masochist.png",
+            "music":"https://www.youtube.com/watch?v=fbcXSINBTDo"
+        },
+        {
+            "name":"Cotärd",
+            "location":"San Luis Potosi, Mexico",
+            "logo":"2023/cotard.png",
+            "music":"https://www.youtube.com/watch?v=2PZNGxUwVoQ"
+        },
+        {
+            "name":"Krash",
+            "location":"Saskatoon, Sk, Canada",
+            "logo":"2023/krash.png",
+            "music":"https://krashpunk.bandcamp.com/"
+        }
+    ]
+}

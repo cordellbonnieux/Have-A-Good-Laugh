@@ -18,7 +18,6 @@ export default function Content() {
             <LineUp />
             <Schedule />
             <Info />
-            <Videos />
             <Contact />
           </div>
         </div>

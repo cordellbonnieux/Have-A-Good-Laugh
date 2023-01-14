@@ -46,7 +46,7 @@ function App() {
     </div>
   )
 
-  return now >= announce && now < end ?  announceApp : notHAGL
+  return app
 }
 
 export default App
