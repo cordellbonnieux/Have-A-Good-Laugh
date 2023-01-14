@@ -1,6 +1,6 @@
-import React from 'react'; 
+import React, {useState, useEffect} from 'react'; 
 import Section from './Section';
-import ticketData from './data/tickets.json';
+import ticketData from './data/tickets2023.json';
 // maybe i dont need these...
 import day1 from './images/flyers/HAGL2022_Day1.jpg';
 import day2 from './images/flyers/HAGL2022_Day2.jpg';
@@ -14,6 +14,7 @@ const exampleInfo = {
 }
 
 function Tickets() {
+  const [now, setNow] = useState();
   const t0 = ticketData.tickets[0];
   const t1 = ticketData.tickets[1];
   const t2 = ticketData.tickets[2];
@@ -24,22 +25,47 @@ function Tickets() {
   const ticket3 = ticketSection(t3);
   const ticket0 = ticketSection(t0);
 
-  const ticketSalesEndDate = new Date(2022, 5, 0, 0, 0, 0)
+  const ticketSalesEndDate = new Date(2023, 6, 15)
+  const ticketSalesStartDate = new Date(2023, 2, 5)
+  /*
   const content = new Date() < ticketSalesEndDate ? (
-    <div className="tickets flex">
-      {ticket0}
-      {ticket1}
-      {ticket2}
-      {ticket3}
+    <div>
+      <div className="tickets flex">
+        {ticket0}
+        {ticket1}
+        {ticket2}
+        {ticket3}
+      </div>
+      <p>
+        All tickets purchased are "will call" (pick up at the door), please make sure to bring a piece of I.D. with you.
+      </p>
+      <p>
+        Due to reduced capacity at the day/after show venue, there will be no presale tickets for these events. 
+        Tickets for these shows will be available at the door at the indicated start time listed on the schedule.
+      </p>
     </div>
   ) :
   (
     <div className="tickets">
-      <p> Presale tickets period has ended, however there will be tickets at the door of each show, check the 
+      <p> Presale tickets period has ended, however there will be tickets left at the door of each show, check the 
         <a href="#schedule"> schedule</a> for gig start times to make sure you're on time to get spot!
       </p>
     </div>
-  )
+  )*/
+  const content = () => {
+    // change new date to variable now
+    if (new Date() < ticketSalesStartDate) {
+      return (
+        <div className="tickets">
+          Tickets go on sale in 
+        </div>
+      )
+    }
+    // else if now
+  }
+  useEffect(() => {
+    // make the tickets go boop boop
+  }, [now, setNow])
 
   return (
     <Section dark={true} title={'Tickets'} content={content} />
