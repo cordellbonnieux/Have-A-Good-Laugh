@@ -1,10 +1,11 @@
-import React from 'react';
-import Section from './Section';
-import hagl1 from './images/flyers/hagl1.jpg';
-import hagl2 from './images/flyers/hagl2.jpg';
-import hagl3 from './images/flyers/hagl3.jpg';
-import hagl4 from './images/flyers/hagl4.jpg';
-import hagl5 from './images/flyers/hagl5.jpg';
+import React from 'react'
+import Section from './Section'
+import hagl1 from './images/flyers/hagl1.jpg'
+import hagl2 from './images/flyers/hagl2.jpg'
+import hagl3 from './images/flyers/hagl3.jpg'
+import hagl4 from './images/flyers/hagl4.jpg'
+import hagl5 from './images/flyers/hagl5.jpg'
+import hagl6 from './images/flyers/HAGL2022.jpg'
 
 export default function Info() {
   const content = (
@@ -34,6 +35,9 @@ export default function Info() {
         <div className="oldFlyerWrapper">
           <a href={hagl5} target="_blank" rel="noreferrer"><img id="hagl5" className="oldFlyer" src={hagl5} alt="hagl5" /></a>
         </div>
+        <div className="oldFlyerWrapper">
+          <a href={hagl6} target="_blank" rel="noreferrer"><img id="hagl6" className="oldFlyer" src={hagl6} alt="hagl6" /></a>
+        </div>
       </div>
     </div>
     <div id="info_inner_can" className="info_inner_section">
@@ -48,13 +52,14 @@ export default function Info() {
     <div id="info_inner_where" className="info_inner_section">
       <h3>What venues will the fest be hosted at?</h3>
       <p>
-        The Budda - formerly the Smiling Budda Cabaret (now, sans ramp!), and The Bullet Farm.
+        The Waldorf and The Bullet Farm.
       </p>
     </div>
     <div id="info_inner_allAges" className="info_inner_section">
       <h3>Will Have A Good Laugh be all ages this year?</h3>
       <p>
-        Yes, this will be the first Have A Good Laugh which is all-ages, there will be a bar section at each gig for those who are +19 and have two pieces of government issued photo ID.
+        Only day shows and after shows at The Bullet Farm, due to city restrictions we were unable to get an all-ages venue large enough for the main events.
+        The main shows for 2023 will be +19.
       </p>
     </div>
     <div id="info_inner_tickets" className="info_inner_section">

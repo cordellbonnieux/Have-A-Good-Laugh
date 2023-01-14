@@ -23,6 +23,6 @@ export default function Contact() {
     </form>
   )
   return (
-    <Section dark={false} title={"Contact"} content={content}/>
+    <Section dark={true} title={"Contact"} content={content}/>
   );
 }
