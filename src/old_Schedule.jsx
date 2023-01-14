@@ -81,10 +81,7 @@ export default function Schedule() {
                             The Bullet Farm - 825 E. Hastings St (back entrance)
                         </li>
                         <li>
-                            undisclosed location will be revealed at the day 3 main gig
-                        </li>
-                        <li>
-                            "~" denotes approximate start times
+                            Undisclosed location will be revealed at the day 3 main gig!
                         </li>
                     </ul>
                 </div>

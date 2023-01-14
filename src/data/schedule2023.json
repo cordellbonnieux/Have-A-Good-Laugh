@@ -2,6 +2,7 @@
     "times" : [
         "2:00 pm",
         "2:30 pm",
+        "3:00 pm",
         "3:45 pm",
         "4:30 pm",
         "5:15 pm",
@@ -15,9 +16,8 @@
         "11:15 pm",
         "12:00 am",
         "12:45 am",
-        "1:30 am",
-        "2:00 am",
-        "2:30 am"
+        "~1:30 am",
+        "~2:00 am"
     ],
     "day1": [
         {"type": null, "value": null},
@@ -43,7 +43,7 @@
         {"type": null, "value": null},
         {"type": null, "value": null},
         {"type": null, "value": null},
-        {"type": null, "value": null},
+        {"type": "band", "value": "Demps presents(info TBA)"},
         {"type": null, "value": null},
         {"type": null, "value": null},
         {"type": null, "value": null},
@@ -55,9 +55,9 @@
         {"type": "band", "value": "Unwanted Noise"},
         {"type": "band", "value": "Long Knife"},
         {"type": "band", "value": "Chaotic Dischord"},
+        {"type": null, "value": null},
         {"type": "header", "value": "Doors @ The Bullet Farm"},
-        {"type": "band", "value": "Homefront"},
-        {"type": null, "value": null}
+        {"type": "band", "value": "Homefront"}
     ],
     "day3": [
         {"type": "header", "value": "Doors @ The Bullet Farm"},
