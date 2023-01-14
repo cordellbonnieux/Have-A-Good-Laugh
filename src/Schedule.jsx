@@ -12,45 +12,47 @@ export default function Schedule() {
     </tr>,
     ];
     // this can TOTALLY be refactored
-    for (let row = 0; row < 20; row++) {
+    // the row number must match the number of rows in the schedule
+    for (let row = 0; row < 18; row++) {
         let values = [];
         for (let col = 0; col < 4; col++) {
+            const randomKey = col + "" + row + "" + Math.random() * 1000
             if (col === 0) {
-                values.push(<th>{data.times[row]}</th>);
+                values.push(<th key={randomKey}>{data.times[row]}</th>);
             } else if (col === 1) {
                 let content;
                 switch (data.day1[row].type) {
-                    case "band": content = <td>{data.day1[row].value}</td>
+                    case "band": content = <td key={randomKey}>{data.day1[row].value}</td>
                         break;
-                    case "header": content = <th>{data.day1[row].value}</th>
+                    case "header": content = <th key={randomKey}>{data.day1[row].value}</th>
                         break;
-                    case null: content = <td className="transparent"></td>;
+                    case null: content = <td className="transparent" key={randomKey}></td>;
                         break;
-                    default: content = <td className="transparent"></td>;
+                    default: content = <td className="transparent" key={randomKey}></td>;
                 }
                 values.push(content)
             } else if (col === 2) {
                 let content;
                 switch (data.day2[row].type) {
-                    case "band": content = <td>{data.day2[row].value}</td>
+                    case "band": content = <td key={randomKey}>{data.day2[row].value}</td>
                         break;
-                    case "header": content = <th>{data.day2[row].value}</th>
+                    case "header": content = <th key={randomKey}>{data.day2[row].value}</th>
                         break;
-                    case null: content = <td className="transparent"></td>;
+                    case null: content = <td className="transparent" key={randomKey}></td>;
                         break;
-                    default: content = <td className="transparent"></td>;
+                    default: content = <td className="transparent" key={randomKey}></td>;
                 }
                 values.push(content)
             } else if (col === 3) {
                 let content;
                 switch (data.day3[row].type) {
-                    case "band": content = <td>{data.day3[row].value}</td>
+                    case "band": content = <td key={randomKey}>{data.day3[row].value}</td>
                         break;
-                    case "header": content = <th>{data.day3[row].value}</th>
+                    case "header": content = <th key={randomKey}>{data.day3[row].value}</th>
                         break;
-                    case null: content = <td className="transparent"></td>;
+                    case null: content = <td className="transparent" key={randomKey}></td>;
                         break;
-                    default: content = <td className="transparent"></td>;
+                    default: content = <td className="transparent" key={randomKey}></td>;
                 }
                 values.push(content)
             }
@@ -73,7 +75,7 @@ export default function Schedule() {
                     <h3>Venues</h3>
                     <ul>
                         <li>
-                            The Buddah - 109 E Hastings (back entrance)
+                            The Waldorf - 1489 Hastings St E, Vancouver, CA (side entrance)
                         </li>
                         <li>
                             The Bullet Farm - 825 E Hastings (back entrance)

@@ -33,7 +33,7 @@ export default function LineUp() {
   output.sort(() => Math.random() - 0.5);
   return (
     <section id="lineUp_container" className="section">
-      <h1>2022 Fest Line-up</h1>
+      <h1>2023 Fest Line-up</h1>
       <p>Click on a band&apos;s logo to hear their music.</p>
       <div id="lineUp">
         {output}
