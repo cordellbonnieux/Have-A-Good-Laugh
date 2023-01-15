@@ -428,158 +428,118 @@ form div:last-child input:hover {
   min-height:100px;
 }
 
-#toytiger {
-  background-image: url("./images/logos/toy_tiger.png");
+#deathgasp {
+  background-image: url("./images/logos/2023/death-gasp.png");
 }
 
-#crosshairs {
-  background-image: url("./images/logos/crosshairs.png");
+#concretebollocks {
+  background-image: url("./images/logos/2023/concrete-bollocks.png");
 }
 
-#schedule1 {
-  background-image: url("./images/logos/schedule1.png");
+#homefront {
+  background-image: url("./images/logos/2023/homefront.png");
 }
 
-#terminalcityrats {
-  background-image: url("./images/logos/terminal_city_rats.png");
+#mess {
+  background-image: url("./images/logos/2023/mess.png");
 }
 
-#bétonarmé {
-  background-image: url("./images/logos/beton_arme.png");
+#noheart {
+  background-image: url("./images/logos/2023/no-heart.png");
 }
 
-#forcemajeure {
-  background-image: url("./images/logos/force_majeure.png");
+#dustblaster {
+  background-image: url("./images/logos/2023/dust-blaster.png");
 }
 
-#kominternsect {
-  background-image: url("./images/logos/komintern_sect.png");
+#iq78 {
+  background-image: url("./images/logos/2023/iq78.png");
 }
 
-#adrenochrome {
-  background-image: url("./images/logos/adrenochrome.png");
+#noproblem {
+  background-image: url("./images/logos/2023/no-problem.png");
 }
 
-#themoor {
-  background-image: url("./images/logos/the_moor.png");
+#skraeling {
+  background-image: url("./images/logos/2023/scraling.png");
 }
 
-#voltage {
-  background-image: url("./images/logos/voltage.png");
+#dustcollector {
+  background-image: url("./images/logos/2023/dust-collector.png");
 }
 
-#deadwolff {
-  background-image: url("./images/logos/deadwolff.png");
+#unwantednoise {
+  background-image: url("./images/logos/2023/unwanted-noise.png");
 }
 
-#metalian {
-  background-image: url("./images/logos/metallian.png");
+#longknife {
+  background-image: url("./images/logos/2023/long-knife.png");
 }
 
-#smuther {
-  background-image: url("./images/logos/smuther.png");
+#losrevolutionarios {
+  background-image: url("./images/logos/2023/los-revolutionarios.png");
 }
 
-#hope {
-  background-image: url("./images/logos/hope.png");
+#chainwhip {
+  background-image: url("./images/logos/2023/chain-whip.png");
 }
 
-#manofico {
-  background-image: url("./images/logos/manofico.png");
+#suspex {
+  background-image: url("./images/logos/2023/suspex.png");
 }
 
-#phane {
-  background-image: url("./images/logos/phane.png");
+#electronicmasochist {
+  background-image: url("./images/logos/2023/electronic-masochist.png");
 }
 
-#fractured {
-  background-image: url("./images/logos/fractured.png");
+#scheme {
+  background-image: url("./images/logos/2023/scheme.png");
 }
 
-#vaxine {
-  background-image: url("./images/logos/vaxine.png");
+#chaosdisorderandpanic {
+  background-image: url("./images/logos/2023/cdp.png");
 }
 
-#löckheed {
-  background-image: url("./images/logos/lockheed.png");
+#cotärd {
+  background-image: url("./images/logos/2023/cotard.png");
 }
 
-#oipolloi {
-  background-image: url("./images/logos/oi_polloi.png");
+#sinbeunos {
+  background-image: url("./images/logos/2023/sinbuenos.png");
 }
 
-#disposal {
-  background-image: url("./images/logos/disposal.png");
+#trenchraid {
+  background-image: url("./images/logos/2023/trenchraid.png");
 }
 
-#hellbender {
-  background-image: url("./images/logos/hellbender.png");
+#incinerous {
+  background-image: url("./images/logos/2023/incinerous.png");
 }
 
-#siegefire {
-  background-image: url("./images/logos/siege_fire.png");
+#outoforder {
+  background-image: url("./images/logos/2023/out-of-order.png");
 }
 
-#hellishinferno {
-  background-image: url("./images/logos/hellish_inferno.png");
+#destructive {
+  background-image: url("./images/logos/2023/destructive.png");
 }
 
-#warkrusher {
-  background-image: url("./images/logos/warkrusher.png");
+#anthropoda {
+  background-image: url("./images/logos/2023/anthrapoda.png");
 }
 
-#languid {
-  background-image: url("./images/logos/languid.png");
-}
-
-#brutalize {
-  background-image: url("./images/logos/brutalize.png");
-}
-
-#krigsulvar {
-  background-image: url("./images/logos/krigsulvar.png");
-}
-
-#horrendous3d {
-  background-image: url("./images/logos/horrendous3d.png");
-}
-
-#frantic {
-  background-image: url("./images/logos/frantic.png");
-}
-
-#collapsed {
-  background-image: url("./images/logos/collapsed.png");
-}
-
-#endresult {
-  background-image: url("./images/logos/end_result.png");
-}
-
-#warplague {
-  background-image: url("./images/logos/war_plague.png");
-}
-
-#sexdwarf {
-  background-image: url("./images/logos/sex_dwarf.png");
-}
-
-#deadcells {
-  background-image: url("./images/logos/deadcells.png");
-}
-
-#austringer {
-  background-image: url("./images/logos/austringer.png");
+#chaoticdischord {
+  background-image: url("./images/logos/2023/chaotic-dischord.png");
 }
 
 #krash {
-  background-image: url("./images/logos/krash.png");
+  background-image: url("./images/logos/2023/krash.png");
 }
 
-#besthoven {
-  background-image: url("./images/logos/besthoven.png");
+#languid {
+  background-image: url("./images/logos/2023/languid.png");
 }
 
-#blix {
-  background-image: url("./images/logos/blix.png");
+#siegefire {
+  background-image: url("./images/logos/2023/siege-fire.png");
 }

@@ -54,14 +54,18 @@ function Tickets() {
   )*/
   const content = () => {
     // change new date to variable now
-    if (new Date() < ticketSalesStartDate) {
+    if (now < ticketSalesStartDate) {
       return (
         <div className="tickets">
           Tickets go on sale in 
         </div>
       )
+    } else if (now > ticketSalesStartDate && now < ticketSalesEndDate) {
+        // else if now
+    } else {
+      // ticket sales are over
     }
-    // else if now
+    
   }
   useEffect(() => {
     // make the tickets go boop boop
