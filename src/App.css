@@ -326,6 +326,20 @@ form div:last-child input:hover {
   }
 }
 
+#paymentMethods {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#paymentMethods ul {
+  text-align:left;
+}
+
+.paymentMethod {
+  max-width: 500px;
+}
+
 .ticket {
   max-width: 360px;
   background-image: url('./images/assets/texture_light3.jpg');

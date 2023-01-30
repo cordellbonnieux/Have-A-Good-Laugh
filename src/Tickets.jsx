@@ -1,72 +1,57 @@
 import React, {useState, useEffect} from 'react'; 
 import Section from './Section';
-import ticketData from './data/tickets2023.json';
-// maybe i dont need these...
-import day1 from './images/flyers/HAGL2022_Day1.jpg';
-import day2 from './images/flyers/HAGL2022_Day2.jpg';
-import day3 from './images/flyers/HAGL2022_Day3.jpg';
-import day0 from './images/flyers/HAGL2022.jpg';
+import url from './data/ticket2023url.json'
 
-const exampleInfo = {
-  title: "ticket",
-  url: "www.example.com",
-  bands: ["band 1", "band 2", "band 3", "etc"]
-}
 
 function Tickets() {
-  const [now, setNow] = useState();
-  const t0 = ticketData.tickets[0];
-  const t1 = ticketData.tickets[1];
-  const t2 = ticketData.tickets[2];
-  const t3 = ticketData.tickets[3];
-
-  const ticket1 = ticketSection(t1);
-  const ticket2 = ticketSection(t2);
-  const ticket3 = ticketSection(t3);
-  const ticket0 = ticketSection(t0);
-
+  const [now, setNow] = useState(new Date());
   const ticketSalesEndDate = new Date(2023, 6, 15)
   const ticketSalesStartDate = new Date(2023, 2, 5)
-  /*
-  const content = new Date() < ticketSalesEndDate ? (
-    <div>
-      <div className="tickets flex">
-        {ticket0}
-        {ticket1}
-        {ticket2}
-        {ticket3}
+
+  let content
+  if (now < ticketSalesStartDate) {
+    content =  (
+      <div className="tickets">
+        <h3>On sale Feb 5th!</h3>
       </div>
-      <p>
-        All tickets purchased are "will call" (pick up at the door), please make sure to bring a piece of I.D. with you.
-      </p>
-      <p>
-        Due to reduced capacity at the day/after show venue, there will be no presale tickets for these events. 
-        Tickets for these shows will be available at the door at the indicated start time listed on the schedule.
-      </p>
-    </div>
-  ) :
-  (
-    <div className="tickets">
-      <p> Presale tickets period has ended, however there will be tickets left at the door of each show, check the 
-        <a href="#schedule"> schedule</a> for gig start times to make sure you're on time to get spot!
-      </p>
-    </div>
-  )*/
-  const content = () => {
-    // change new date to variable now
-    if (now < ticketSalesStartDate) {
-      return (
-        <div className="tickets">
-          Tickets go on sale in 
+    )
+  } else if (now > ticketSalesStartDate && now < ticketSalesEndDate) {
+    content = (
+      <div className="tickets">
+        <h3>HAGL2023: FULL PASS</h3>
+        <h4>Full access pass to all gigs listed on the schedule.</h4>
+        <p>
+          Two ways to pay: Paypal or E-Transfer.
+          Tickets are will call, bring government issued I.D. with you.
+          Waldorf shows are +19, Bullet Farm shows are all-ages.
+        </p>
+        <div id="paymentMethods">
+          <div className="paymentMethod">
+            <h4>Option #1: E-Transfer</h4>
+            <ul>
+              <li>Transfer $100 CAD/per ticket to thoughtdecayrecords@gmail.com</li>
+              <li>Put the full name of each ticket holder in the description</li>
+              <li>If no names are entered in the description we will refuse the payment</li>
+              <li>If your payment has gone through, your tickets have been added to the willcall list</li>
+              <li>If you have any problems, use the contact form below</li>
+            </ul>
+          </div>
+          <div className="paymentMethod">
+            {tix(url.url)}
+          </div>
         </div>
-      )
-    } else if (now > ticketSalesStartDate && now < ticketSalesEndDate) {
-        // else if now
-    } else {
-      // ticket sales are over
-    }
-    
+      </div> 
+    )
+  } else {
+    // ticket sales are over
+    content = (
+      <div className="tickets">
+        <h3>HAGL2023 is over, check back often for future announcements!</h3>
+      </div>
+    )
   }
+
+
   useEffect(() => {
     // make the tickets go boop boop
   }, [now, setNow])
@@ -76,54 +61,6 @@ function Tickets() {
   )
 }
 
-function ticketSection(ticketInfo) {
-  const { title, url, bands, description, price, day } = ticketInfo;
-  const bandList = bandsList(bands);
-  let img;
-  let payment;
-  switch(day) {
-    default: img = null;
-      payment = null;
-      break;
-    case 0 : img = day0;
-      payment = tix(0);
-      break;
-    case 1: img = day1;
-      payment = tix(1);
-      break;
-    case 2: img = day2;
-      payment = tix(2);
-      break;
-    case 3: img = day3;
-      payment = tix(3);
-  }
-  return (
-    <div className={`ticket ${title}`}>
-      <img src={img} alt={title} />
-      <a href={img} target="_blank">
-        Download Flyer
-      </a>
-      <div>
-        <h3>{title}</h3>
-        <p>
-          {description}
-        </p>
-        {bandList}
-        {tix(url)}
-      </div>
-    </div>
-  )
-}
-
-function bandsList(bands) {
-  return (
-    <ul>
-      {bands.map((band) => (
-        <li key={band}>{band}</li>
-      ))}
-    </ul>
-  )
-}
 
 function tix(url) {
   return (
@@ -131,6 +68,7 @@ function tix(url) {
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
         <input type="hidden" name="cmd" value="_s-xclick"></input>
         <input type="hidden" name="encrypted" value={url}></input>
+        <h4>Option #2: Pay with Paypal</h4>
         <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"></input>
         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
       </form>
