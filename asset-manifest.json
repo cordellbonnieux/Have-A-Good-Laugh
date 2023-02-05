@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0ed4ac36.css",
-    "main.js": "/static/js/main.e67d487e.js",
+    "main.js": "/static/js/main.15c11ba8.js",
     "static/media/hagl2023_anim.gif": "/static/media/hagl2023_anim.e34ae667b2f1d720f18e.gif",
     "static/media/hagl1.jpg": "/static/media/hagl1.004853b8a604dd622a3c.jpg",
     "static/media/hagl2023_still.jpg": "/static/media/hagl2023_still.13b550f7b6f2727808a1.jpg",
@@ -56,10 +56,10 @@
     "static/media/scheme.png": "/static/media/scheme.bb44345a72f07fbc7ff0.png",
     "index.html": "/index.html",
     "main.0ed4ac36.css.map": "/static/css/main.0ed4ac36.css.map",
-    "main.e67d487e.js.map": "/static/js/main.e67d487e.js.map"
+    "main.15c11ba8.js.map": "/static/js/main.15c11ba8.js.map"
   },
   "entrypoints": [
     "static/css/main.0ed4ac36.css",
-    "static/js/main.e67d487e.js"
+    "static/js/main.15c11ba8.js"
   ]
 }
