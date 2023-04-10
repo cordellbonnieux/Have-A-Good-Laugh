@@ -4,10 +4,6 @@ import url from './data/ticket2023url.json'
 
 
 function Tickets() {
-  const [now, setNow] = useState(new Date());
-  const ticketSalesEndDate = new Date(2023, 6, 15)
-  const ticketSalesStartDate = new Date(2023, 2, 5)
-
   let content = (
     <div className="tickets">
       <h3>HAGL2023: FULL PASS</h3>
@@ -34,10 +30,6 @@ function Tickets() {
       </div>
     </div> 
   )
-
-  useEffect(() => {
-    // make the tickets go boop boop
-  }, [now, setNow])
 
   return (
     <Section dark={true} title={'Tickets'} content={content} />

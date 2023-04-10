@@ -49,12 +49,6 @@
             "music":"https://messtheterribles.bandcamp.com/"
         },
         {
-            "name":"Dust Blaster",
-            "location":"Vancouver, B.C., Canada",
-            "logo":"2023/dust-blaster.png",
-            "music":"https://dustblaster.bandcamp.com/"
-        },
-        {
             "name":"IQ78",
             "location":"Victoria, B.C., Canada",
             "logo":"2023/iq78.png",
@@ -127,12 +121,6 @@
             "music":"https://deathgasp.bandcamp.com/album/stranglehold-ep-2"
         },
         {
-            "name":"Scheme",
-            "location":"Vancouver, B.C., Canada",
-            "logo":"2023/scheme.png",
-            "music":"https://schemepunk.bandcamp.com/"
-        },
-        {
             "name":"Languid",
             "location":"Edmonton, Canada",
             "logo":"2023/languid.jpg",
@@ -157,7 +145,7 @@
             "music":"https://losrevolucionarios.bandcamp.com/album/control"
         },
         {
-            "name":"Electronic Masochist",
+            "name":"Electric Masochist",
             "location":"Berlin, Germany",
             "logo":"2023/electronic-masochist.png",
             "music":"https://www.youtube.com/watch?v=fbcXSINBTDo"
