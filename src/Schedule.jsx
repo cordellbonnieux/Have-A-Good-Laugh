@@ -78,7 +78,7 @@ export default function Schedule() {
                             The Waldorf - 1489 E. Hastings St (side entrance)
                         </li>
                         <li>
-                            The Bullet Farm - 825 E. Hastings St (back entrance)
+                            The Cambie - 300 Cambie St
                         </li>
                         <li>
                             undisclosed location will be revealed at the day 3 main gig

@@ -52,14 +52,13 @@ export default function Info() {
     <div id="info_inner_where" className="info_inner_section">
       <h3>What venues will the fest be hosted at?</h3>
       <p>
-        The Waldorf and The Bullet Farm.
+        The Waldorf and The Cambie.
       </p>
     </div>
     <div id="info_inner_allAges" className="info_inner_section">
       <h3>Will Have A Good Laugh be all ages this year?</h3>
       <p>
-        Only day shows and after shows at The Bullet Farm, due to city restrictions we were unable to get an all-ages venue large enough for the main events.
-        The main shows for 2023 will be +19.
+        Unfortunately not, the entire fest will be +19.
       </p>
     </div>
     <div id="info_inner_tickets" className="info_inner_section">

@@ -326,6 +326,24 @@ form div:last-child input:hover {
   }
 }
 
+.singleDayPass {
+  margin: 100px 0;
+  padding: 25px;
+  border: 1px solid #fff;
+}
+
+.singleDayPass img {
+  max-width: 100%;
+}
+.SingleDayPaymentMethods {
+  display: flex;
+  justify-content: center;
+}
+
+.SingleDayPaymentMethods li{
+  text-align: left;
+}
+
 #paymentMethods {
   display: flex;
   flex-wrap: wrap;
