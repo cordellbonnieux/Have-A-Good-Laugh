@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.735720f5.css",
-    "main.js": "/static/js/main.2beb7f9c.js",
-    "static/media/day3.jpg": "/static/media/day3.0ea88b550d8b0e66132f.jpg",
-    "static/media/day1.jpg": "/static/media/day1.90d81091d7f96a36d933.jpg",
-    "static/media/day2.jpg": "/static/media/day2.632b83ed8f03939ec017.jpg",
+    "main.css": "/static/css/main.f0ed0630.css",
+    "main.js": "/static/js/main.27b325fd.js",
     "static/media/hagl2023_anim.gif": "/static/media/hagl2023_anim.e34ae667b2f1d720f18e.gif",
+    "static/media/day2.jpg": "/static/media/day2.16b9baec92fbfbb4594d.jpg",
+    "static/media/day3.jpg": "/static/media/day3.319f29a8ec0dc133329a.jpg",
+    "static/media/day1.jpg": "/static/media/day1.87fb06c8c6380be3d74f.jpg",
     "static/media/hagl1.jpg": "/static/media/hagl1.004853b8a604dd622a3c.jpg",
     "static/media/hagl2023_still.jpg": "/static/media/hagl2023_still.13b550f7b6f2727808a1.jpg",
     "static/media/HAGL2022.jpg": "/static/media/HAGL2022.da0f103a5620089ecd1b.jpg",
@@ -13,6 +13,7 @@
     "static/media/texture_light3.jpg": "/static/media/texture_light3.168d39666f88b832d8b3.jpg",
     "static/media/hagl2023_anim_72dpi_not-wide.gif": "/static/media/hagl2023_anim_72dpi_not-wide.6649430803132951fec5.gif",
     "static/media/meuco.jpg": "/static/media/meuco.4303f587c7c50b96f4ca.jpg",
+    "static/media/vorlust.png": "/static/media/vorlust.f7082cf2856243fe1521.png",
     "static/media/tyler-jamo.jpg": "/static/media/tyler-jamo.f37850289ea0a69442f7.jpg",
     "static/media/ass.jpg": "/static/media/ass.3f387233438d274b6f0d.jpg",
     "static/media/jump.jpg": "/static/media/jump.389aa8648d57055788bd.jpg",
@@ -33,7 +34,6 @@
     "static/media/cotard.png": "/static/media/cotard.bd673ca06c15d8dc54ab.png",
     "static/media/trenchraid.png": "/static/media/trenchraid.1cb270ac3f95de37a550.png",
     "static/media/sinbuenos.png": "/static/media/sinbuenos.dc33f04ef46bb23875d9.png",
-    "static/media/siege-fire.png": "/static/media/siege-fire.b4a5198f76dcc7e401e9.png",
     "static/media/destructive.png": "/static/media/destructive.328b73f77f2255597910.png",
     "static/media/mess.png": "/static/media/mess.48dc135a11a40ccc3b09.png",
     "static/media/scraling.png": "/static/media/scraling.2eabd6a4b77ca5ec87f2.png",
@@ -42,6 +42,7 @@
     "static/media/no-heart.png": "/static/media/no-heart.46e4a17a58d50f6cb957.png",
     "static/media/suspex.png": "/static/media/suspex.ac4c289941d66952b876.png",
     "static/media/cdp.png": "/static/media/cdp.7fc05271708decbd18c8.png",
+    "static/media/decomp.png": "/static/media/decomp.885a348dcdb7babe7532.png",
     "static/media/krash.png": "/static/media/krash.8ff053ae6c56b6b6efcb.png",
     "static/media/out-of-order.png": "/static/media/out-of-order.8f3648cff9adfe5bd9d8.png",
     "static/media/chain-whip.png": "/static/media/chain-whip.bd804f4a818446e95828.png",
@@ -49,7 +50,6 @@
     "static/media/anthrapoda.png": "/static/media/anthrapoda.20bbf9317ca34cd99318.png",
     "static/media/concrete-bollocks.png": "/static/media/concrete-bollocks.0fe55cc7822b2d16e0c8.png",
     "static/media/dust-collector.png": "/static/media/dust-collector.deada9822beee046a4bd.png",
-    "static/media/los-revolutionarios.png": "/static/media/los-revolutionarios.1254aa9a886aef8893e9.png",
     "static/media/iq78.png": "/static/media/iq78.063a412a5f217899a626.png",
     "static/media/long-knife.png": "/static/media/long-knife.faecd642628a7ee4378b.png",
     "static/media/dust-blaster.png": "/static/media/dust-blaster.b6a2cdcb74adf572e791.png",
@@ -58,11 +58,11 @@
     "static/media/glashou.ttf": "/static/media/glashou.80e8b58e056fa6f56cdc.ttf",
     "static/media/scheme.png": "/static/media/scheme.bb44345a72f07fbc7ff0.png",
     "index.html": "/index.html",
-    "main.735720f5.css.map": "/static/css/main.735720f5.css.map",
-    "main.2beb7f9c.js.map": "/static/js/main.2beb7f9c.js.map"
+    "main.f0ed0630.css.map": "/static/css/main.f0ed0630.css.map",
+    "main.27b325fd.js.map": "/static/js/main.27b325fd.js.map"
   },
   "entrypoints": [
-    "static/css/main.735720f5.css",
-    "static/js/main.2beb7f9c.js"
+    "static/css/main.f0ed0630.css",
+    "static/js/main.27b325fd.js"
   ]
 }
