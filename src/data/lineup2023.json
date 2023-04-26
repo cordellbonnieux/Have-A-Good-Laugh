@@ -68,7 +68,7 @@
         },
         {
             "name":"Unwanted Noise",
-            "location":"Québec, Qc, Canada",
+            "location":"Longueuil, Qc, Canada",
             "logo":"2023/unwanted-noise.png",
             "music":"https://unwantednoiseofficial.bandcamp.com/"
         },
@@ -109,10 +109,10 @@
             "music":"https://trenchraid.bandcamp.com/album/demo-2022"
         },
         {
-            "name":"Siege Fire",
+            "name":"Decomp",
             "location":"Portland, USA",
-            "logo":"2023/siege-fire.png",
-            "music":"https://siegefire.bandcamp.com/album/storms-of-radiation-demo"
+            "logo":"2023/decomp.png",
+            "music":"https://decomp.bandcamp.com/"
         },
         {
             "name":"Death Gasp",
@@ -139,10 +139,10 @@
             "music":"https://dustcollectorpunk.bandcamp.com/album/dust-collector-s-t"
         },
         {
-            "name":"Los Revolutionarios",
-            "location":"Saltillo, México",
-            "logo":"2023/los-revolutionarios.png",
-            "music":"https://losrevolucionarios.bandcamp.com/album/control"
+            "name":"Vorlust",
+            "location":"Oakland, USA",
+            "logo":"2023/vorlust.png",
+            "music":"https://vorlust.bandcamp.com/"
         },
         {
             "name":"Electric Masochist",
