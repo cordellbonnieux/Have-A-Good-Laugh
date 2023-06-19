@@ -1,7 +1,7 @@
 {
     "bands": [
         {
-            "name":"Anthropoda",
+            "name":"Arthropoda",
             "location":"Chilliwack, B.C., Canada",
             "logo":"2023/anthrapoda.png",
             "music":"https://arthropoda1.bandcamp.com/album/arthropoda"
@@ -47,12 +47,6 @@
             "location":"Guadalajara, México",
             "logo":"2023/mess.png",
             "music":"https://messtheterribles.bandcamp.com/"
-        },
-        {
-            "name":"IQ78",
-            "location":"Victoria, B.C., Canada",
-            "logo":"2023/iq78.png",
-            "music":""
         },
         {
             "name":"Destructive",

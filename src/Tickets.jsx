@@ -46,8 +46,15 @@ function Tickets() {
     </div>
   )
 
+  let ticketsOver = (
+    <div>
+      <h3>Ticket sales are over!</h3>
+      <h4>there will be a limited number of tickets available at the door of each show.</h4>
+    </div>
+  )
+  
   return (
-    <Section dark={true} title={'Tickets'} content={content} />
+    <Section dark={true} title={'Tickets'} content={ticketsOver} />
   )
 }
 
