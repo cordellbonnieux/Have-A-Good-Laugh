@@ -56,7 +56,7 @@ export default function Info() {
     <div id="info_inner_where" className="info_inner_section">
       <h3>What venues will the fest be hosted at?</h3>
       <p>
-        The Waldorf and The Cambie.
+        The Waldorf and another venue we are still working out.
       </p>
     </div>
     <div id="info_inner_allAges" className="info_inner_section">
