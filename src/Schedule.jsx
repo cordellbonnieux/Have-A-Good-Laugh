@@ -1,6 +1,8 @@
 import React from 'react';
-import data from './data/schedule2023.json'
+import data from './data/schedule2024.json'
 import Section from './Section'
+
+const NUMBER_OF_ROWS = 38
 
 export default function Schedule() {
     let trs = [
@@ -13,7 +15,7 @@ export default function Schedule() {
     ];
     // this can TOTALLY be refactored
     // the row number must match the number of rows in the schedule
-    for (let row = 0; row < 18; row++) {
+    for (let row = 0; row < NUMBER_OF_ROWS; row++) {
         let values = [];
         for (let col = 0; col < 4; col++) {
             const randomKey = col + "" + row + "" + Math.random() * 1000
@@ -81,7 +83,7 @@ export default function Schedule() {
                             The Cambie - 300 Cambie St
                         </li>
                         <li>
-                            undisclosed location will be revealed at the day 3 main gig
+                            guerilla gig location will be revealed at the day 3 main gig
                         </li>
                         <li>
                             "~" denotes approximate start times
