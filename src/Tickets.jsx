@@ -8,6 +8,8 @@ import flyer1 from './images/flyers/2023/day1.jpg'
 import flyer2 from './images/flyers/2023/day2.jpg'
 import flyer3 from './images/flyers/2023/day3.jpg'
 
+const tix_2024 = "DK4EUV8FJURFJ"
+
 // TODO: actually properly componentize this!
 
 function Tickets() {
@@ -26,7 +28,7 @@ function Tickets() {
           <div className="paymentMethod">
             <h4>Option #1: E-Transfer</h4>
             <ul>
-              <li>Transfer $125 CAD/per ticket to thoughtdecayrecords@gmail.com</li>
+              <li>E-Transfer $125 CAD/per ticket to thoughtdecayrecords@gmail.com</li>
               <li>Put the full name of each ticket holder in the description</li>
               <li>Make the secret question "full pass" without quotations</li>
               <li>Make the secret question answer "hagl" without quotations; if your bank requires a longer password use "haglhagl"</li>
@@ -36,7 +38,7 @@ function Tickets() {
             </ul>
           </div>
           <div className="paymentMethod">
-            {tix(url.url)}
+            {tix(tix_2024)}
           </div>
         </div>
       </div> 
@@ -98,12 +100,13 @@ function singleDayPass(url, dayNum, flyerImg) {
   )
 }
 
-function tix(url) {
+function tix(ticket_key) {
   return (
     <div>
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
         <input type="hidden" name="cmd" value="_s-xclick"></input>
-        <input type="hidden" name="encrypted" value={url}></input>
+        <input type="hidden" name="hosted_button_id" value={ticket_key} />
+        <input type="hidden" name="currency_code" value="CAD" />
         <h4>Option #2: Pay with Paypal</h4>
         <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"></input>
         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
