@@ -1,5 +1,5 @@
 import React from 'react';
-import data from './data/lineup2023.json';
+import data from './data/lineup2024.json';
 
 export default function LineUp() {
   const output = [];
@@ -12,10 +12,9 @@ export default function LineUp() {
     const location = data.bands[i].location;
     let music = data.bands[i].music;
     */
-    let idName = name.split(' ').join('').replace('//', '').replace('?', '');
-    idName = idName.toLowerCase();
+    let idName = name.replaceAll(' ', '').replaceAll('.', '').replaceAll('-', '').toLowerCase()
     if (music.length < 1) {
-      music = "return false";
+      music = "return false"
     }
     output.push(
       <div className="band_container" key={i}>

@@ -1,0 +1,148 @@
+{
+    "bands": [
+        {
+            "name":"A.T.E.R.",
+            "location":"Montréal, Québec",
+            "logo":"2024/ater.png",
+            "music":"https://atercrust.bandcamp.com/album/demo-2022"
+        },
+        {
+            "name":"Chueko",
+            "location":"U.S.A.",
+            "logo":"2024/chueko.png",
+            "music":"https://www.youtube.com/watch?v=GhM44ErVbeY"
+        },
+        {
+            "name":"Zeal",
+            "location":"Ottawa, Ontario",
+            "logo":"2024/zeal.png",
+            "music":"https://runstatetapes.bandcamp.com/album/zeal-demonstration-2022/"
+        },
+        {
+            "name":"Spirokete",
+            "location":"U.S.A.",
+            "logo":"2024/spirokete.png",
+            "music":"https://spirokete.bandcamp.com/"
+        },
+        {
+            "name":"Axe Helvete",
+            "location":"Japan",
+            "logo":"2024/axe-helvete.png",
+            "music":"https://youtu.be/EMB-4lboXIk?si=iLVPk7Tv9CjA1UM5"
+        },
+        {
+            "name":"Disposal",
+            "location":"Victoria, B.C.",
+            "logo":"2024/disposal.png",
+            "music":"https://disposalpunk.bandcamp.com/"
+        },
+        {
+            "name":"Bootlicker",
+            "location":"Western Canada",
+            "logo":"2024/bootlicker.png",
+            "music":"https://boot-licker.bandcamp.com/"
+        },
+        {
+            "name":"Crucified Class",
+            "location":"U.S.A.",
+            "logo":"2024/crucified-class.png",
+            "music":"https://crucifiedclasspdx.bandcamp.com/"
+        },
+        {
+            "name":"B.A.L.M. Squad",
+            "location":"Ottawa, Ontario",
+            "logo":"2024/balm-squad.png",
+            "music":"https://pilssessions.bandcamp.com/album/point-of-no-return-pils-23"
+        },
+        {
+            "name":"Ilusión",
+            "location":"Montréal, Québec",
+            "logo":"2024/ilusion.png",
+            "music":"https://ilusion.bandcamp.com/"
+        },
+        {
+            "name":"Ego",
+            "location":"Germany",
+            "logo":"2024/ego.png",
+            "music":"https://punkego.bandcamp.com/"
+        },
+        {
+            "name":"Repair",
+            "location":"Saskatoon, Saskatchewan",
+            "logo":"2024/repair.png",
+            "music":"https://attackwithforce.bandcamp.com/album/repair"
+        },
+        {
+            "name":"Puffer",
+            "location":"Montréal, Québec",
+            "logo":"2024/puffer.png",
+            "music":"https://puffpuffpuff.bandcamp.com/"
+        },
+        {
+            "name":"Ultra Razzia",
+            "location":"Montréal, Québec",
+            "logo":"2024/ultra-razzia.png",
+            "music":"https://primatorcrew.bandcamp.com/album/ultra-razzia-2"
+        },
+        {
+            "name":"Reckless Upstarts",
+            "location":"Windsor, Ontario",
+            "logo":"2024/reckless-upstarts.png",
+            "music":"https://recklessupstarts.bandcamp.com/"
+        },
+        {
+            "name":"Generacion Suicidia",
+            "location":"U.S.A.",
+            "logo":"2024/generacionsuicidia.png",
+            "music":"https://generacionsuicida.bandcamp.com/"
+        },
+        {
+            "name":"Prowlers",
+            "location":"Montréal, Québec",
+            "logo":"2024/prowlers.png",
+            "music":"https://insurgencerecords.bandcamp.com/album/prowl-around"
+        },
+        {
+            "name":"Extensive Slaughter",
+            "location":"Vancouver, B.C.",
+            "logo":"2024/extensive-slaughter.png",
+            "music":"https://neontasterecords.bandcamp.com/album/more-than-a-nightmare"
+        },
+        {
+            "name":"Axefear",
+            "location":"U.S.A.",
+            "logo":"2024/axefear.png",
+            "music":"https://www.youtube.com/watch?v=n-zR5QH1WIE"
+        },
+        {
+            "name":"Psych-War",
+            "location":"U.S.A.",
+            "logo":"2024/psych-war.jpg",
+            "music":"https://psych-war.bandcamp.com/"
+        },
+        {
+            "name":"Auxilio",
+            "location":"U.S.A.",
+            "logo":"2024/auxilio.png",
+            "music":"https://auxilio-la.bandcamp.com/"
+        },
+        {
+            "name":"Genogeist",
+            "location":"U.S.A.",
+            "logo":"2024/genogeist.png",
+            "music":"https://genogeist.bandcamp.com/"
+        },
+        {
+            "name":"Axegrinder",
+            "location":"United Kingdom",
+            "logo":"2024/axegrinder.png",
+            "music":"https://peaceville.bandcamp.com/album/rise-of-the-serpent-men"
+        },
+        {
+            "name":"Voltage",
+            "location":"Kamloops, B.C.",
+            "logo":"2024/voltage.png",
+            "music":"https://voltagepunk.bandcamp.com/"
+        }
+    ]
+}

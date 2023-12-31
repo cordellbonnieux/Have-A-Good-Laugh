@@ -6,6 +6,7 @@ import hagl3 from './images/flyers/hagl3.jpg'
 import hagl4 from './images/flyers/hagl4.jpg'
 import hagl5 from './images/flyers/hagl5.jpg'
 import hagl6 from './images/flyers/HAGL2022.jpg'
+import hagl7 from './images/flyers/hagl2023_still.jpg';
 
 export default function Info() {
   const content = (
@@ -38,12 +39,15 @@ export default function Info() {
         <div className="oldFlyerWrapper">
           <a href={hagl6} target="_blank" rel="noreferrer"><img id="hagl6" className="oldFlyer" src={hagl6} alt="hagl6" /></a>
         </div>
+        <div className="oldFlyerWrapper">
+          <a href={hagl7} target="_blank" rel="noreferrer"><img id="hagl6" className="oldFlyer" src={hagl7} alt="hagl7" /></a>
+        </div>
       </div>
     </div>
     <div id="info_inner_can" className="info_inner_section">
       <h3>Can my band play Have A Good Laugh?</h3>
       <p>
-        Planning for Have A Good Laugh usually starts in August the year prior,
+        Planning for Have A Good Laugh usually starts in September the year prior,
         and the bill is usually filled by October or November.
         If you are interested in playing we encourage you to
         send us your music during this period.
@@ -58,7 +62,7 @@ export default function Info() {
     <div id="info_inner_allAges" className="info_inner_section">
       <h3>Will Have A Good Laugh be all ages this year?</h3>
       <p>
-        Unfortunately not, the entire fest will be +19.
+        Main gigs at the Waldorf are +19.
       </p>
     </div>
     <div id="info_inner_tickets" className="info_inner_section">
@@ -69,6 +73,7 @@ export default function Info() {
     </div>
   </div>
   );
+
   return (
     <Section dark={false} title={"Info"} content={content} />
   );

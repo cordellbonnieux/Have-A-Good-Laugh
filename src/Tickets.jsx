@@ -15,22 +15,22 @@ function Tickets() {
   let content = (
     <div>
       <div className="tickets">
-        <h3>HAGL2023: FULL PASS</h3>
+        <h3>HAGL2024: FULL PASS</h3>
         <h4>Full access pass to all gigs listed on the schedule.</h4>
         <p>
           Two ways to pay: Paypal or E-Transfer.
           Tickets are will call, bring government issued I.D. with you.
-          Waldorf shows are +19, Bullet Farm shows are all-ages.
+          Waldorf shows are +19.
         </p>
         <div id="paymentMethods">
           <div className="paymentMethod">
             <h4>Option #1: E-Transfer</h4>
             <ul>
-              <li>Transfer $100 CAD/per ticket to thoughtdecayrecords@gmail.com</li>
+              <li>Transfer $125 CAD/per ticket to thoughtdecayrecords@gmail.com</li>
               <li>Put the full name of each ticket holder in the description</li>
               <li>Make the secret question "full pass" without quotations</li>
-              <li>Make the secret question answer "hagl" without quotations</li>
-              <li>If no names are entered in the description we will refuse the payment</li>
+              <li>Make the secret question answer "hagl" without quotations; if your bank requires a longer password use "haglhagl"</li>
+              <li>If no names are entered in the description we will refuse & return the payment</li>
               <li>If your payment has gone through, your tickets have been added to the willcall list</li>
               <li>If you have any problems, use the contact form below</li>
             </ul>
@@ -40,11 +40,18 @@ function Tickets() {
           </div>
         </div>
       </div> 
-      {singleDayPass(url1.url, 1, flyer1)}
-      {singleDayPass(url2.url, 2, flyer2)}
-      {singleDayPass(url3.url, 3, flyer3)}
+
     </div>
   )
+
+    /*
+        single ticket components
+
+        {singleDayPass(url1.url, 1, flyer1)}
+        {singleDayPass(url2.url, 2, flyer2)}
+        {singleDayPass(url3.url, 3, flyer3)}
+
+    */
 
   let ticketsOver = (
     <div>
@@ -54,7 +61,7 @@ function Tickets() {
   )
   
   return (
-    <Section dark={true} title={'Tickets'} content={ticketsOver} />
+    <Section dark={true} title={'Tickets'} content={content} />
   )
 }
 
@@ -78,7 +85,7 @@ function singleDayPass(url, dayNum, flyerImg) {
               <li>Make the secret question "day{dayNum}" without quotations</li>
               <li>Make the secret question answer "hagl" without quotations</li>
               <li>If no names are entered in the description we will refuse the payment</li>
-              <li>If your payment has gone through, your tickets have been added to the willcall list</li>
+              <li>If your payment has gone through, your tickets have been added to the will-call list</li>
               <li>If you have any problems, use the contact form below</li>
             </ul>
           </div>
