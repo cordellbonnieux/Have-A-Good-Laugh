@@ -8,9 +8,9 @@ export default function Schedule() {
     let trs = [
     <tr>
         <th>Time</th>
-        <th>Thursday June 22</th>
-        <th>Friday June 23</th>
-        <th>Saturday June 24</th>
+        <th>Thursday June 6</th>
+        <th>Friday June 7</th>
+        <th>Saturday June 8</th>
     </tr>,
     ];
     // this can TOTALLY be refactored
