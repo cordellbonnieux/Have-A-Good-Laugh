@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.9ce97f87.css",
-    "main.js": "/static/js/main.4ca46035.js",
+    "main.css": "/static/css/main.a7b80af5.css",
+    "main.js": "/static/js/main.031c748b.js",
     "static/media/hagl2023_anim.gif": "/static/media/hagl2023_anim.e34ae667b2f1d720f18e.gif",
     "static/media/day2.jpg": "/static/media/day2.16b9baec92fbfbb4594d.jpg",
     "static/media/day3.jpg": "/static/media/day3.319f29a8ec0dc133329a.jpg",
     "static/media/day1.jpg": "/static/media/day1.87fb06c8c6380be3d74f.jpg",
     "static/media/hagl1.jpg": "/static/media/hagl1.004853b8a604dd622a3c.jpg",
     "static/media/hagl2023_still.jpg": "/static/media/hagl2023_still.13b550f7b6f2727808a1.jpg",
+    "static/media/hagl2024.jpg": "/static/media/hagl2024.ca9b57ea90d95f66788c.jpg",
     "static/media/HAGL2022.jpg": "/static/media/HAGL2022.da0f103a5620089ecd1b.jpg",
     "static/media/hagl3.jpg": "/static/media/hagl3.5763c75e217760dbea3a.jpg",
-    "static/media/hagl2024.jpg": "/static/media/hagl2024.360bda7774127a30096b.jpg",
     "static/media/zeal.png": "/static/media/zeal.5cf91b3957add5182e3c.png",
     "static/media/extensive-slaughter.png": "/static/media/extensive-slaughter.23bc749d1ca31bae0f7e.png",
     "static/media/texture_light3.jpg": "/static/media/texture_light3.168d39666f88b832d8b3.jpg",
@@ -31,6 +31,7 @@
     "static/media/prowlers.png": "/static/media/prowlers.4bc86c5695cba0dc26b0.png",
     "static/media/hagl2.jpg": "/static/media/hagl2.cb62d45a86b2c89454de.jpg",
     "static/media/hagl4.jpg": "/static/media/hagl4.20e0c4ea580d4458f983.jpg",
+    "static/media/instinct-of-survival.png": "/static/media/instinct-of-survival.67a1a6f6d42267f0ccbc.png",
     "static/media/reckless-upstarts.png": "/static/media/reckless-upstarts.5a64d815793f3cad5b14.png",
     "static/media/spironkete.png": "/static/media/spironkete.6f7e9ceb143e3a5f09e2.png",
     "static/media/ultra-razzia.png": "/static/media/ultra-razzia.1cae0ba1374f6cacbf58.png",
@@ -51,13 +52,12 @@
     "static/media/balmsquad.png": "/static/media/balmsquad.ccddbe91a9bc20a06744.png",
     "static/media/voltage.png": "/static/media/voltage.edbb071b3186518437ce.png",
     "static/media/glashou.ttf": "/static/media/glashou.80e8b58e056fa6f56cdc.ttf",
-    "static/media/axegrinder.png": "/static/media/axegrinder.5925d0f0af45d3368647.png",
     "index.html": "/index.html",
-    "main.9ce97f87.css.map": "/static/css/main.9ce97f87.css.map",
-    "main.4ca46035.js.map": "/static/js/main.4ca46035.js.map"
+    "main.a7b80af5.css.map": "/static/css/main.a7b80af5.css.map",
+    "main.031c748b.js.map": "/static/js/main.031c748b.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ce97f87.css",
-    "static/js/main.4ca46035.js"
+    "static/css/main.a7b80af5.css",
+    "static/js/main.031c748b.js"
   ]
 }
