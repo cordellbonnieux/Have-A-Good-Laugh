@@ -41,6 +41,12 @@ function Tickets() {
             {tix(tix_2024)}
           </div>
         </div>
+        <div>
+          *Single-day tickets will be available in March.
+        </div>
+        <div id="additional-payment-info">
+          *If you purchased a ticket before the Saturday headliner switch (Axegrinder -> Instinct Of Survival), and you would like a refund, please contact us using the form below.
+        </div>
       </div> 
 
     </div>
