@@ -1,12 +1,12 @@
 import React, {useState, useEffect} from 'react'; 
 import Section from './Section';
-import url from './data/ticket2023url.json'
-import url1 from './data/ticket2023url_1.json'
-import url2 from './data/ticket2023url_2.json'
-import url3 from './data/ticket2023url_3.json'
-import flyer1 from './images/flyers/2023/day1.jpg'
-import flyer2 from './images/flyers/2023/day2.jpg'
-import flyer3 from './images/flyers/2023/day3.jpg'
+//import url from './data/ticket2023url.json'
+//import url1 from './data/ticket2023url_1.json'
+//import url2 from './data/ticket2023url_2.json'
+//import url3 from './data/ticket2023url_3.json'
+import flyer1 from './images/flyers/2024/HAGL2024_June06.jpg'
+import flyer2 from './images/flyers/2024/HAGL2024_June07.jpg'
+import flyer3 from './images/flyers/2024/HAGL2024_June08.jpg'
 
 const tix_2024 = "DK4EUV8FJURFJ"
 
@@ -41,14 +41,12 @@ function Tickets() {
             {tix(tix_2024)}
           </div>
         </div>
-        <div>
-          *Single-day tickets will be available in March.
-        </div>
         <div id="additional-payment-info">
-          *If you purchased a ticket before the Saturday headliner switch (Axegrinder -> Instinct Of Survival), and you would like a refund, please contact us using the form below.
         </div>
       </div> 
-
+      {singleDayPass("6YNY35GUPGDBC", 1, flyer1, 30)}
+      {singleDayPass("JPBG9AH2C7ENL", 2, flyer2, 40)}
+      {singleDayPass("MZNT6UY2AXRKU", 3, flyer3, 40)}
     </div>
   )
 
@@ -73,14 +71,14 @@ function Tickets() {
   )
 }
 
-function singleDayPass(url, dayNum, flyerImg) {
+function singleDayPass(url, dayNum, flyerImg, price) {
   return (
     <div className="singleDayPass">
       <div>
       <img src={flyerImg} alt="HAGL 2023 flyer" />
       </div>
       <div>
-        <h3>Day {dayNum} Main Gig Ticket (@ The Waldorf)</h3>
+        <h3>Day {dayNum} Main Gig Ticket (at The Waldorf)</h3>
         <p>
           Paypal or E-Transfer, your name(s) will be on the list, night of the event so bring I.D.
         </p>
@@ -88,7 +86,7 @@ function singleDayPass(url, dayNum, flyerImg) {
           <div className="paymentMethod">
             <h4>Option #1: E-Transfer</h4>
             <ul>
-              <li>Transfer $30 CAD/per ticket to thoughtdecayrecords@gmail.com</li>
+              <li>Transfer ${price} CAD/per ticket to thoughtdecayrecords@gmail.com</li>
               <li>Put the full name of each ticket holder in the description</li>
               <li>Make the secret question "day{dayNum}" without quotations</li>
               <li>Make the secret question answer "hagl" without quotations</li>
