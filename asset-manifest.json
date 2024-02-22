@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.a7b80af5.css",
-    "main.js": "/static/js/main.031c748b.js",
+    "main.js": "/static/js/main.f89baeeb.js",
     "static/media/hagl2023_anim.gif": "/static/media/hagl2023_anim.e34ae667b2f1d720f18e.gif",
-    "static/media/day2.jpg": "/static/media/day2.16b9baec92fbfbb4594d.jpg",
-    "static/media/day3.jpg": "/static/media/day3.319f29a8ec0dc133329a.jpg",
-    "static/media/day1.jpg": "/static/media/day1.87fb06c8c6380be3d74f.jpg",
     "static/media/hagl1.jpg": "/static/media/hagl1.004853b8a604dd622a3c.jpg",
     "static/media/hagl2023_still.jpg": "/static/media/hagl2023_still.13b550f7b6f2727808a1.jpg",
     "static/media/hagl2024.jpg": "/static/media/hagl2024.ca9b57ea90d95f66788c.jpg",
     "static/media/HAGL2022.jpg": "/static/media/HAGL2022.da0f103a5620089ecd1b.jpg",
+    "static/media/HAGL2024_June07.jpg": "/static/media/HAGL2024_June07.be8871f1813280f15a65.jpg",
     "static/media/hagl3.jpg": "/static/media/hagl3.5763c75e217760dbea3a.jpg",
+    "static/media/HAGL2024_June08.jpg": "/static/media/HAGL2024_June08.8ed3b8f1acbec6a470aa.jpg",
+    "static/media/HAGL2024_June06.jpg": "/static/media/HAGL2024_June06.bc8ebe3a68ca30b2aca0.jpg",
     "static/media/zeal.png": "/static/media/zeal.5cf91b3957add5182e3c.png",
     "static/media/extensive-slaughter.png": "/static/media/extensive-slaughter.23bc749d1ca31bae0f7e.png",
     "static/media/texture_light3.jpg": "/static/media/texture_light3.168d39666f88b832d8b3.jpg",
@@ -54,10 +54,10 @@
     "static/media/glashou.ttf": "/static/media/glashou.80e8b58e056fa6f56cdc.ttf",
     "index.html": "/index.html",
     "main.a7b80af5.css.map": "/static/css/main.a7b80af5.css.map",
-    "main.031c748b.js.map": "/static/js/main.031c748b.js.map"
+    "main.f89baeeb.js.map": "/static/js/main.f89baeeb.js.map"
   },
   "entrypoints": [
     "static/css/main.a7b80af5.css",
-    "static/js/main.031c748b.js"
+    "static/js/main.f89baeeb.js"
   ]
 }
