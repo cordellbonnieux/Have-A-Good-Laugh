@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.799cce35.css",
-    "main.js": "/static/js/main.b5822247.js",
+    "main.css": "/static/css/main.2ac19e11.css",
+    "main.js": "/static/js/main.cffd640a.js",
     "static/media/hagl2023_anim.gif": "/static/media/hagl2023_anim.e34ae667b2f1d720f18e.gif",
     "static/media/hagl1.jpg": "/static/media/hagl1.004853b8a604dd622a3c.jpg",
     "static/media/hagl2023_still.jpg": "/static/media/hagl2023_still.13b550f7b6f2727808a1.jpg",
-    "static/media/hagl2024.jpg": "/static/media/hagl2024.ca9b57ea90d95f66788c.jpg",
+    "static/media/HAGL2024_June08.jpg": "/static/media/HAGL2024_June08.2a356c596dd4e074e348.jpg",
+    "static/media/hagl2024.jpg": "/static/media/hagl2024.5a40426742a3f43f7adc.jpg",
     "static/media/HAGL2022.jpg": "/static/media/HAGL2022.da0f103a5620089ecd1b.jpg",
     "static/media/HAGL2024_June07.jpg": "/static/media/HAGL2024_June07.79eaa7615d61e9980f9d.jpg",
     "static/media/hagl3.jpg": "/static/media/hagl3.5763c75e217760dbea3a.jpg",
-    "static/media/HAGL2024_June08.jpg": "/static/media/HAGL2024_June08.1b350545b0da3efa076e.jpg",
     "static/media/zeal.png": "/static/media/zeal.5cf91b3957add5182e3c.png",
     "static/media/HAGL2024_June06.jpg": "/static/media/HAGL2024_June06.1dd0fd83ae351d4d727a.jpg",
     "static/media/extensive-slaughter.png": "/static/media/extensive-slaughter.23bc749d1ca31bae0f7e.png",
@@ -29,6 +29,7 @@
     "static/media/mess2023.jpg": "/static/media/mess2023.68048f33390e18a4aa16.jpg",
     "static/media/hagl5.jpg": "/static/media/hagl5.b0a10ee2ea15aa1a21a4.jpg",
     "static/media/prowlers.png": "/static/media/prowlers.4bc86c5695cba0dc26b0.png",
+    "static/media/deathknell.png": "/static/media/deathknell.9f33f28fd6f9bf6948c9.png",
     "static/media/hagl2.jpg": "/static/media/hagl2.cb62d45a86b2c89454de.jpg",
     "static/media/hagl4.jpg": "/static/media/hagl4.20e0c4ea580d4458f983.jpg",
     "static/media/instinct-of-survival.png": "/static/media/instinct-of-survival.67a1a6f6d42267f0ccbc.png",
@@ -54,11 +55,11 @@
     "static/media/voltage.png": "/static/media/voltage.edbb071b3186518437ce.png",
     "static/media/glashou.ttf": "/static/media/glashou.80e8b58e056fa6f56cdc.ttf",
     "index.html": "/index.html",
-    "main.799cce35.css.map": "/static/css/main.799cce35.css.map",
-    "main.b5822247.js.map": "/static/js/main.b5822247.js.map"
+    "main.2ac19e11.css.map": "/static/css/main.2ac19e11.css.map",
+    "main.cffd640a.js.map": "/static/js/main.cffd640a.js.map"
   },
   "entrypoints": [
-    "static/css/main.799cce35.css",
-    "static/js/main.b5822247.js"
+    "static/css/main.2ac19e11.css",
+    "static/js/main.cffd640a.js"
   ]
 }
