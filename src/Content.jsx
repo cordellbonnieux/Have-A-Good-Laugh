@@ -14,7 +14,6 @@ export default function Content() {
         <div id="content_left">
           <div className="content_left_inner">
             <Header />
-            <Tickets />
             <LineUp />
             <Schedule />
             <Info />
