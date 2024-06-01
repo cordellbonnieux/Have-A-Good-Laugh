@@ -27,9 +27,6 @@ export default function Menu() {
         </div>
       </div>
       <div id="menu_inner">
-        <div className="menu_button_wrapper menu_button_wrapper_tickets">
-          <a href="#tickets" className="menu_button font_glass">Tickets</a>
-        </div>
         <div className="menu_button_wrapper menu_button_wrapper_lineUp">
           <a href="#lineUp" className="menu_button font_glass">Line-up</a>
         </div>
