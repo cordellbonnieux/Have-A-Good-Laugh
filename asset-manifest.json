@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9760d30b.css",
-    "main.js": "/static/js/main.e1431f1e.js",
+    "main.css": "/static/css/main.d8249ebd.css",
+    "main.js": "/static/js/main.d50e2320.js",
     "static/media/hagl2023_anim.gif": "/static/media/hagl2023_anim.e34ae667b2f1d720f18e.gif",
     "static/media/hagl1.jpg": "/static/media/hagl1.004853b8a604dd622a3c.jpg",
     "static/media/hagl2023_still.jpg": "/static/media/hagl2023_still.13b550f7b6f2727808a1.jpg",
@@ -55,12 +55,13 @@
     "static/media/voltage.png": "/static/media/voltage.edbb071b3186518437ce.png",
     "static/media/glashou.ttf": "/static/media/glashou.80e8b58e056fa6f56cdc.ttf",
     "static/media/toy_tiger.png": "/static/media/toy_tiger.87c1bf529fef19d5f23f.png",
+    "static/media/krash.png": "/static/media/krash.dc422ea64388164c02bb.png",
     "index.html": "/index.html",
-    "main.9760d30b.css.map": "/static/css/main.9760d30b.css.map",
-    "main.e1431f1e.js.map": "/static/js/main.e1431f1e.js.map"
+    "main.d8249ebd.css.map": "/static/css/main.d8249ebd.css.map",
+    "main.d50e2320.js.map": "/static/js/main.d50e2320.js.map"
   },
   "entrypoints": [
-    "static/css/main.9760d30b.css",
-    "static/js/main.e1431f1e.js"
+    "static/css/main.d8249ebd.css",
+    "static/js/main.d50e2320.js"
   ]
 }
